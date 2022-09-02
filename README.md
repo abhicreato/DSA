@@ -24,3 +24,17 @@
 |17  | [Merge k Sorted Lists](https://github.com/pr7prashant/dsa-practice/blob/master/LinkedList/MergeKSortedLists.cpp) | [Leetcode](https://leetcode.com/problems/merge-k-sorted-lists/) |
 |18  | [Delete nodes having greater value on right](https://github.com/pr7prashant/dsa-practice/blob/master/LinkedList/DeleteNodeWithGreaterValOnRight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1#) |
 |19  | [Segregate even and odd nodes in a Link List](https://github.com/pr7prashant/dsa-practice/blob/master/LinkedList/SegregateEvenOdd.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1#) |
+
+
+### 3. Stack
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Next Greater Element](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/NextGreaterElement.java) | [GFG](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#) |
+|2  | [Stock Span](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/StockSpan.java) | [GFG](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1#) |
+|3  | [Maximum Rectangular Area in a Histogram](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MaxAreaHistogram.java) | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
+|4  | [Maximum Area Rectangle of 1 in a Binary Matrix](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MaxAreaRectInBinaryMatrix.java) | [LeetCode](https://leetcode.com/problems/maximal-rectangle/) |
+|5  | [Minimum stack element ](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MinElementStack.java) | [LeetCode](https://leetcode.com/problems/min-stack/) |
+|6  | [Valid Parentheses](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/ValidParanthese.java) | [Leetcode](https://leetcode.com/problems/valid-parentheses/) |
+|7  | [The Celebrity Problem](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/CelebrityProblem.java) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
+|8  | [Merge Intervals](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MergeInterval.java) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
+ 
