@@ -29,12 +29,15 @@
 ### 3. Stack
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
-|1  | [Next Greater Element](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/NextGreaterElement.java) | [GFG](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#) |
-|2  | [Stock Span](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/StockSpan.java) | [GFG](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1#) |
-|3  | [Maximum Rectangular Area in a Histogram](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MaxAreaHistogram.java) | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
-|4  | [Maximum Area Rectangle of 1 in a Binary Matrix](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MaxAreaRectInBinaryMatrix.java) | [LeetCode](https://leetcode.com/problems/maximal-rectangle/) |
-|5  | [Minimum stack element ](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MinElementStack.java) | [LeetCode](https://leetcode.com/problems/min-stack/) |
-|6  | [Valid Parentheses](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/ValidParanthese.java) | [Leetcode](https://leetcode.com/problems/valid-parentheses/) |
-|7  | [The Celebrity Problem](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/CelebrityProblem.java) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
-|8  | [Merge Intervals](https://github.com/gopronooob/DSA-Practice/blob/main/Stack/MergeInterval.java) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
- 
+|1  | [Next Greater Element](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/NextGreaterElement.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#) |
+|2  | [Nearest Smaller Element](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/NearestSmallerElement.cpp) | [InterviewBit](https://www.interviewbit.com/problems/nearest-smaller-element/) |
+|3  | [Stock Span](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/StockSpan.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1#) |
+|4  | [Largest Rectangle in Histogram](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/MaxRectAreaInHistogram.cpp) | [Leetcode](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
+|5  | [Maximum Area Rectangle of 1 in a Binary Matrix](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/MaxAreaRectInBinaryMatrix.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/max-rectangle/1#) |
+|6  | [Minimum stack element O(1)](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/MinStackElement.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/special-stack/1#) |
+|7  | [Valid Parentheses](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/ValidParentheses.cpp) | [Leetcode](https://leetcode.com/problems/valid-parentheses/) |
+|8  | [The Celebrity Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/CelebrityProblem.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
+|9  | [Two stacks in an array](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/TwoStacksInArray.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1#) |
+|10  | [Sort a stack recursively](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/SortStack.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#) |
+|11  | [Merge Intervals](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/MergeIntervals.cpp) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
+|12  | [Longest Valid Parentheses](https://github.com/pr7prashant/dsa-practice/blob/master/Stack/LongestValidParentheses.cpp) | [Leetcode](https://leetcode.com/problems/longest-valid-parentheses/) |
