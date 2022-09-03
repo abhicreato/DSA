@@ -53,6 +53,7 @@ public class NearestSmallerElement {
     
 }
 
+/*
 **************** Logic ****************
 Iterate over array and Push the elements on the left side into stack.
 Pop elements until top is greater than current element or the stack is empty.

@@ -45,6 +45,7 @@ public class StockSpan {
     
 }
 
+/*
 **************** Logic ****************
 Variation of Nearest Greater to Left problem. Add array index in stack instead of elements.
 */
