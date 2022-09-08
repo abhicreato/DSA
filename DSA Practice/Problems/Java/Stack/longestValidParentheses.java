@@ -13,7 +13,6 @@ find the length of the longest valid (well-formed) parentheses substring.
 */
 public class LongestValidParentheses {
 
-    
     public int longestValidParentheses(String s) {
         
         Stack<Integer> st = new Stack<>();
@@ -21,6 +20,7 @@ public class LongestValidParentheses {
         int max = 0;
         
         for(int i=0;i<s.length();i++){
+
             char c = s.charAt(i);
             if(c ==')'){
                 st.pop();
@@ -32,7 +32,6 @@ public class LongestValidParentheses {
             }else{
                 st.push(i);
             }
-   
         }
         
         return max;
