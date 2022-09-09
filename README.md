@@ -26,7 +26,7 @@
 |19  | [Segregate even and odd nodes in a Link List](https://github.com/pr7prashant/dsa-practice/blob/master/LinkedList/SegregateEvenOdd.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1#) |
 
 
-### 3. Stack
+### 2. Stack
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
 |1  | [Next Greater Element](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/NextGreaterElement.java) | [GFG](https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1#) |
