@@ -42,3 +42,11 @@
 |11 | [Merge Intervals](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/MergeIntervals.java) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
 |12 | [Longest Valid Parentheses](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/longestValidParentheses.java) | [Leetcode](https://leetcode.com/problems/longest-valid-parentheses/) |
 |13 | [Evaluate Reverse Polish Notation](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/EvaluateReversePolishNotation.java) | [Leetcode](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |
+
+### 3. Recursion and Backtracking
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Sort a stack recursively](https://github.com/gopronooob/DSA-Practice/blob/main/RecursionAndBacktracking/SortStackRecursive.java) | [GFG](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#) |
+|2  | [Delete Middle Element from Stack](https://github.com/gopronooob/DSA-Practice/blob/main/RecursionAndBacktracking/StackDeleteMiddle.java) | [GFG](https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1#) |
+
+
