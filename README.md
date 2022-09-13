@@ -48,5 +48,27 @@
 | --- | --------- | --------- |
 |1  | [Sort a stack recursively](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/SortStack.java) | [GFG](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#) |
 |2  | [Delete Middle Element from Stack](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Recursion/StackDeleteMiddle.java) | [GFG](https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1#) |
+|3  | [K-th Symbol in Grammar](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/KthSymbolInGrammar.cpp) | [Leetcode](https://leetcode.com/problems/k-th-symbol-in-grammar/) |
+|4  | [Tower of Hanoi](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/TowerOfHanoi.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1#) |
+|5  | [Subsets](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Subsets.cpp) | [Leetcode](https://leetcode.com/problems/subsets/) |
+|6  | [Subsets 2](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Subsets2.cpp) | [Leetcode](https://leetcode.com/problems/subsets-ii/) |
+|7  | [Combinations](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Combinations.cpp) | [Leetcode](https://leetcode.com/problems/combinations/) |
+|8  | [Permutations](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Permutations.cpp) | [Leetcode](https://leetcode.com/problems/permutations/) |
+|9  | [Permutations 2](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Permutations2.cpp) | [Leetcode](https://leetcode.com/problems/permutations-ii/) |
+|10  | [Permutation with Spaces](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PermutationWithSpaces.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1#) |
+|11  | [Letter Case Permutation](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/LetterCasePermutation.cpp) | [Leetcode](https://leetcode.com/problems/letter-case-permutation/) |
+|12  | [Generate Parentheses](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/GenerateParentheses.cpp) | [Leetcode](https://leetcode.com/problems/generate-parentheses/) |
+|13  | [Josephus Problem](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/JosephusProblem.cpp) | [Leetcode](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) |
+|14  | [Rat in Maze](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/RatInMaze.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1#) |
+|15  | [N Queen Problem](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/NQueens.cpp) | [Leetcode](https://leetcode.com/problems/n-queens/) |
+|16  | [Word Break](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/WordBreak.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/word-break-part-23249/1#) |
+|17  | [Remove Invalid Parentheses](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/RemoveInvalidParentheses.cpp) | [Leetcode](https://leetcode.com/problems/remove-invalid-parentheses/) |
+|18  | [Sudoku Solver](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/SudokuSolver.cpp) | [Leetcode](https://leetcode.com/problems/sudoku-solver/) |
+|19  | [Combination Sum](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/CombinationSum.cpp) | [Leetcode](https://leetcode.com/problems/combination-sum/) |
+|20  | [Combination Sum 2](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/CombinationSum2.cpp) | [Leetcode](https://leetcode.com/problems/combination-sum-ii/) |
+|21  | [Largest Number in K Swaps](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/LargestNumberInKSwaps.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1#) |
+|22  | [Partition a Set into K Equal Sum Subsets](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PartitionToKEqualSumSubsets.cpp) | [Leetcode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) |
+|23  | [Predict the Winner](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PredictTheWinner.cpp) | [Leetcode](https://leetcode.com/problems/predict-the-winner/) |
+|24  | [Permutations of a string](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PermutationsOfString.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1#) |
 
 
