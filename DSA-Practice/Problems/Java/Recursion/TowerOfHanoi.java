@@ -37,27 +37,29 @@ public class TowerOfHanoi {
 
     public long toh(int N, int from, int to, int aux) {
         // Your code here
-        
+
         count++;
-    
-        if(N==1) {
-        System.out.println("move disk " + N +" from rod " + from+ " to rod "+ to);
-        return count;
+
+        if (N == 1) {
+            System.out.println("move disk " + N + " from rod " + from + " to rod " + to);
+            return count;
         }
-        
-        toh(N-1,from,aux,to);
-        
-        System.out.println("move disk " + N + " from rod " + from + " to rod "+ to);
-        
-        toh(N-1,aux,to,from);
-        
+
+        toh(N - 1, from, aux, to);
+
+        System.out.println("move disk " + N + " from rod " + from + " to rod " + to);
+
+        toh(N - 1, aux, to, from);
+
         return count;
     }
 }
 
 /*
-**************** Logic ****************
-step 1. Recursive call to move all top disks from "from" to aux in current call.
-step 2. Move the bottom disk and increment moves.
-step 3. Recursive call to move all top disk back from aux to "to" in current call.
-*/
+ **************** Logic ****************
+ * step 1. Recursive call to move all top disks from "from" to aux in current
+ * call.
+ * step 2. Move the bottom disk and increment moves.
+ * step 3. Recursive call to move all top disk back from aux to "to" in current
+ * call.
+ */
