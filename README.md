@@ -48,9 +48,9 @@
 | --- | --------- | --------- |
 |1  | [Sort a stack recursively](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Stack/SortStack.java) | [GFG](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#) |
 |2  | [Delete Middle Element from Stack](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Recursion/StackDeleteMiddle.java) | [GFG](https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1#) |
-|3  | [K-th Symbol in Grammar](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/KthSymbolInGrammar.cpp) | [Leetcode](https://leetcode.com/problems/k-th-symbol-in-grammar/) |
-|4  | [Tower of Hanoi](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/TowerOfHanoi.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1#) |
-|5  | [Subsets](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Subsets.cpp) | [Leetcode](https://leetcode.com/problems/subsets/) |
+|3  | [K-th Symbol in Grammar](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Recursion/KthSymbolInGrammar.java) | [Leetcode](https://leetcode.com/problems/k-th-symbol-in-grammar/) |
+|4  | [Tower of Hanoi](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Recursion/TowerOfHanoi.java) | [GFG](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1#) |
+|5  | [Subsets](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Recursion/Subsets.java) | [Leetcode](https://leetcode.com/problems/subsets/) |
 |6  | [Subsets 2](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Subsets2.cpp) | [Leetcode](https://leetcode.com/problems/subsets-ii/) |
 |7  | [Combinations](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Combinations.cpp) | [Leetcode](https://leetcode.com/problems/combinations/) |
 |8  | [Permutations](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/Permutations.cpp) | [Leetcode](https://leetcode.com/problems/permutations/) |
