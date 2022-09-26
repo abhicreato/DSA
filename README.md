@@ -71,4 +71,31 @@
 |23  | [Predict the Winner](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PredictTheWinner.cpp) | [Leetcode](https://leetcode.com/problems/predict-the-winner/) |
 |24  | [Permutations of a string](https://github.com/pr7prashant/dsa-practice/blob/master/RecursionAndBacktracking/PermutationsOfString.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1#) |
 
+### 8. Binary Tree
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Binary Tree Level Order Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/LevelOrderTraversal.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+|2  | [Diameter of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/DiameterOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) |
+|3  | [Invert Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/InvertBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
+|4  | [Binary Tree Right Side View](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SideViewOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
+|5  | [Binary Tree Zigzag Level Order Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/ZigZagLevelOrderTraversal.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
+|6  | [Balanced Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BalancedBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/balanced-binary-tree/) |
+|7  | [Diagonal Traversal of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/DiagonalTraversal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1#) |
+|8  | [Boundary Traversal of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BoundaryTraversal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1#) |
+|9  | [Flatten Binary Tree to Linked List](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BinaryTreeToLinkedList.cpp) | [Leetcode](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |
+|10  | [Transform to Sum Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/TransformToSumTree.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1#) |
+|11  | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BinaryTreeFromPreorderAndInorder.cpp) | [Leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |
+|12  | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BinaryTreeFromPostorderAndInorder.cpp) | [Leetcode](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |
+|13  | [Find Duplicate Subtrees](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/FindDuplicateSubtree.cpp) | [Leetcode](https://leetcode.com/problems/find-duplicate-subtrees/) |
+|14  | [Binary Tree Maximum Path Sum](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/MaximumPathSum.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |
+|15  | [All Root to Leaf Paths with K Sum](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/RootToLeafPathsWithKSum.cpp) | [Leetcode](https://leetcode.com/problems/path-sum-ii/) |
+|16  | [All K Sum Paths in a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/AllKSumPaths.cpp) | [Leetcode](https://leetcode.com/problems/path-sum-iii/) |
+|17  | [Lowest Common Ancestor of a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/LowestCommonAncestor.cpp) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |
+|18  | [Minimum distance between two nodes of a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/MinDistanceBetweenTwoNodes.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1#) |
+|19  | [Tree Isomorphism Problem](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/TreeIsomorphism.cpp) | [Leetcode](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
+|20  | [Populate Inorder Successor for all nodes](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/PopulateInorderSuccessor.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1#) |
+|21  | [Check Completeness of a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/CheckCompleteness.cpp) | [Leetcode](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) |
+|22  | [Range Sum Query - Segment Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SegmentTree.cpp) | [Leetcode](https://leetcode.com/problems/range-sum-query-mutable/) |
+
+
 
