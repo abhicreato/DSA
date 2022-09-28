@@ -14,6 +14,7 @@ public class BinaryTreeLevelOrderTraversal {
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
 
+        // Run logic untill queue is empty 
         while (!q.isEmpty()) {
 
             int size = q.size();
