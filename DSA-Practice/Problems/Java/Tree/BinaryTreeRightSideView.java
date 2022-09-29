@@ -12,16 +12,16 @@ public class BinaryTreeRightSideView {
         return this.ans;
     }
     
-    public void solve(TreeNode node,int level){
+    public void solve(TreeNode node,int currentDepth){
         
         if(node == null){
             return;
         }
         
-        if(level == ans.size())ans.add(node.val);
+        if(currentDepth == ans.size())ans.add(node.val);
         
-        solve(node.right, level + 1);
-        solve(node.left, level + 1);
+        solve(node.right, currentDepth + 1);
+        solve(node.left, currentDepth + 1);
         
     }
     
