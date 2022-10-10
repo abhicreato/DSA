@@ -76,8 +76,8 @@
 | --- | --------- | --------- |
 |1  | [Binary Tree Level Order Traversal](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/BinaryTreeLevelOrderTraversal.java) | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 |2  | [Diameter of Binary Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/DiameterOfBinaryTree.java) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) |
-|3  | [Invert Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/InvertBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
-|4  | [Binary Tree Right Side View](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SideViewOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
+|3  | [Invert Binary Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/InvertBinaryTree.java) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
+|4  | [Binary Tree Right Side View](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/BinaryTreeRightSideView.java) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
 |5  | [Binary Tree Zigzag Level Order Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/ZigZagLevelOrderTraversal.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 |6  | [Balanced Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BalancedBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/balanced-binary-tree/) |
 |7  | [Diagonal Traversal of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/DiagonalTraversal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1#) |
