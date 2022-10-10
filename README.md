@@ -74,7 +74,7 @@
 ### 8. Binary Tree
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
-|1  | [Binary Tree Level Order Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/LevelOrderTraversal.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+|1  | [Binary Tree Level Order Traversal](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/BinaryTreeLevelOrderTraversal.java) | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 |2  | [Diameter of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/DiameterOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) |
 |3  | [Invert Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/InvertBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
 |4  | [Binary Tree Right Side View](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SideViewOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
