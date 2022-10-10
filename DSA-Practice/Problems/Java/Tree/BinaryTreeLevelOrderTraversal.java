@@ -24,6 +24,7 @@ public class BinaryTreeLevelOrderTraversal {
 
                 TreeNode curr = q.remove();
                 op.add(curr.val);
+
                 if (curr.left != null)
                     q.add(curr.left);
                 if (curr.right != null)
@@ -39,3 +40,9 @@ public class BinaryTreeLevelOrderTraversal {
     }
 
 }
+
+/*
+**************** Logic ****************
+Solution 1 : Use Preorder traversal
+Solution 2 : Use Queue
+*/

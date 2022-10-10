@@ -42,3 +42,8 @@ public class DiameterOfBinaryTree {
     }
 
 }
+
+/*
+**************** Logic ****************
+Recursively travel left and right nodes and return the max sum for each node.
+*/

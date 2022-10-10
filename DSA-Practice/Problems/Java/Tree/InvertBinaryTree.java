@@ -18,3 +18,8 @@ public class InvertBinaryTree {
     }
     
 }
+
+/*
+**************** Logic ****************
+Recursively travel left and right nodes, swap left and right nodes and return current node.
+*/
