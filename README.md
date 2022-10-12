@@ -76,8 +76,8 @@
 | --- | --------- | --------- |
 |1  | [Binary Tree Level Order Traversal](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/BinaryTreeLevelOrderTraversal.java) | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 |2  | [Diameter of Binary Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/DiameterOfBinaryTree.java) | [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/) |
-|3  | [Invert Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/InvertBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
-|4  | [Binary Tree Right Side View](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SideViewOfBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
+|3  | [Invert Binary Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/InvertBinaryTree.java) | [Leetcode](https://leetcode.com/problems/invert-binary-tree/) |
+|4  | [Binary Tree Right Side View](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Tree/BinaryTreeRightSideView.java) | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) |
 |5  | [Binary Tree Zigzag Level Order Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/ZigZagLevelOrderTraversal.cpp) | [Leetcode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 |6  | [Balanced Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/BalancedBinaryTree.cpp) | [Leetcode](https://leetcode.com/problems/balanced-binary-tree/) |
 |7  | [Diagonal Traversal of Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/DiagonalTraversal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1#) |
@@ -96,6 +96,20 @@
 |20  | [Populate Inorder Successor for all nodes](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/PopulateInorderSuccessor.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1#) |
 |21  | [Check Completeness of a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/CheckCompleteness.cpp) | [Leetcode](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) |
 |22  | [Range Sum Query - Segment Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinaryTree/SegmentTree.cpp) | [Leetcode](https://leetcode.com/problems/range-sum-query-mutable/) |
+
+### 9. Binary Search Tree
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Delete Node in a BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/DeleteNodeInBST.cpp) | [Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/) |
+|2  | [Validate Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/ValidateBST.cpp) | [Leetcode](https://leetcode.com/problems/validate-binary-search-tree/) |
+|3  | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/LowestCommonAncestor.cpp) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
+|4  | [Construct Binary Search Tree from Preorder Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BSTFromPreorder.cpp) | [Leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |
+|5  | [Binary Tree to BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BinaryTreeToBST.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1#) |
+|6  | [Balance a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BalanceBST.cpp) | [Leetcode](https://leetcode.com/problems/balance-a-binary-search-tree/) |
+|7  | [Kth Smallest Element in a BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/KthSmallestElement.cpp) | [Leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |
+|8  | [Count Pairs From 2 BST with K Sum](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/CountPairsWithTargetSum2BST.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1#) |
+|9  | [Check whether BST contains Dead End](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/CheckDeadEnd.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/1#) |
+|10  | [Largest BST in a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/LargestBSTInBinaryTree.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/largest-bst/1#) |
 
 
 
