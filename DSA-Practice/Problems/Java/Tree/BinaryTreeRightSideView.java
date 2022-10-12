@@ -18,7 +18,7 @@ public class BinaryTreeRightSideView {
             return;
         }
         
-        if(currentDepth == ans.size())ans.add(node.val);
+        if(currentDepth == ans.size()) ans.add(node.val);
         
         solve(node.right, currentDepth + 1);
         solve(node.left, currentDepth + 1);
@@ -28,3 +28,8 @@ public class BinaryTreeRightSideView {
 }
 
 // logic link https://www.youtube.com/watch?v=KV4mRzTjlAk
+
+/*
+**************** Logic ****************
+Use pre order traversal and store node data at depth index of result vector.
+*/
