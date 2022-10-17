@@ -115,7 +115,7 @@
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
 |1  | [Create and Print a Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CreateGraph.cpp) | [-](-) |
-|2  | [BFS Traversal Starting From a Given Vertex](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/BFSTraversal.cpp) | [-](-) |
+|2  | [BFS Traversal Starting From a Given Vertex](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/BFSGraph.java) | [-](-) |
 |3  | [DFS Traversal Starting From a Given Vertex](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/DFSTraversal.cpp) | [-](-) |
 |4  | [Detect Cycle in a Directed Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/DirectedGraphCycle.cpp) | [-](-) |
 |5  | [Detect Cycle in an Undirected Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/UndirectedGraphCycle.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1#) |
