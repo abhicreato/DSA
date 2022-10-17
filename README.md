@@ -111,5 +111,45 @@
 |9  | [Check whether BST contains Dead End](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/CheckDeadEnd.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/1#) |
 |10  | [Largest BST in a Binary Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/LargestBSTInBinaryTree.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/largest-bst/1#) |
 
+### 10. Graph
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Create and Print a Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CreateGraph.cpp) | [-](-) |
+|2  | [BFS Traversal Starting From a Given Vertex](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/BFSTraversal.cpp) | [-](-) |
+|3  | [DFS Traversal Starting From a Given Vertex](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/DFSTraversal.cpp) | [-](-) |
+|4  | [Detect Cycle in a Directed Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/DirectedGraphCycle.cpp) | [-](-) |
+|5  | [Detect Cycle in an Undirected Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/UndirectedGraphCycle.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1#) |
+|6  | [Minimum Steps By Knight](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MinStepsByKnight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
+|7  | [Flood Fill](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/FloodFill.cpp) | [Leetcode](https://leetcode.com/problems/flood-fill/) |
+|8  | [Clone Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CloneGraph.cpp) | [Leetcode](https://leetcode.com/problems/clone-graph/) |
+|9  | [Number of Operations to Make Network Connected](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/ConnectNetworks.cpp) | [Leetcode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |
+|10  | [Word Ladder](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/WordLadder.cpp) | [Leetcode](https://leetcode.com/problems/word-ladder/) |
+|11  | [Djikstra's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Djikstra.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1#) |
+|12  | [Topological Sort](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TopologicalSort.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/topological-sort/1#) |
+|13  | [Number of Islands](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/NumberOfIslands.cpp) | [Leetcode](https://leetcode.com/problems/number-of-islands/) |
+|14  | [Alien Dictionary](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/AlienDictionary.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/alien-dictionary/1#) |
+|15  | [Kruskal's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Kruskal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
+|16  | [Prim's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Prim.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
+|17  | [Bellman Ford Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/BellmanFord.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1#) |
+|18  | [Floyd Warshall Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/FloydWarshall.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1#) |
+|19  | [Hamiltonian Path](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/HamiltonianPath.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1#) |
+|20  | [Travelling Salesman Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TravellingSalesman.cpp) | [-](-) |
+|21  | [Graph Coloring Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/GraphColoring.cpp) | [-](-) |
+|22  | [M Coloring Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MColoring.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#) |
+|23  | [Snakes and Ladders](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/SnakesAndLadders.cpp) | [Leetcode](https://leetcode.com/problems/snakes-and-ladders/) |
+|24  | [Critical Connections in a Network (Tarjan's Algorith)](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CriticalConnectionsInNetwork.cpp) | [Leetcode](https://leetcode.com/problems/critical-connections-in-a-network/) |
+|25  | [Kosaraju's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Kosaraju.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1#) |
+|26  | [Longest Path in a DAG](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/LongestPathInDAG.cpp) | [-](-) |
+|27  | [Journey to the Moon](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/JourneyToMoon.cpp) | [HackerRank](https://www.hackerrank.com/challenges/journey-to-the-moon/problem) |
+|28  | [Cheapest Flights Within K Stops](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CheapestFlightsWithinKStops.cpp) | [Leetcode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |
+|29  | [Oliver and the Game](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/OliverAndTheGame.cpp) | [HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/) |
+|30  | [Water and Jug Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/WaterAndJug.cpp) | [Leetcode](https://leetcode.com/problems/water-and-jug-problem/) |
+|31  | [Minimum edges to reverse to make path from source to destination](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MinEdgesToReverse.cpp) | [-](-) |
+|32  | [Euler Graph](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/EulerGraph.cpp) | [-](-) |
+|33  | [Vertex Cover Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/VertexCover.cpp) | [-](-) |
+|34  | [Number of Triangles in Directed and Undirected Graphs](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CountTriangles.cpp) | [-](-) |
+|35  | [Two Clique Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TwoClique.cpp) | [-](-) |
+
+
 
 
