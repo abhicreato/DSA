@@ -119,7 +119,7 @@
 |3  | [DFS Traversal Starting From a Given Vertex](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DFSOfGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |
 |4  | [Detect Cycle in a Directed Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DetectCycleDirectedGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
 |5  | [Detect Cycle in an Undirected Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DetectCycleUndirectedGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1#) |
-|6  | [Minimum Steps By Knight](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MinStepsByKnight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
+|6  | [Minimum Steps By Knight](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/StepsByKnight.java) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
 |7  | [Flood Fill](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/FloodFill.java) | [Leetcode](https://leetcode.com/problems/flood-fill/) |
 |8  | [Clone Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CloneGraph.java) | [Leetcode](https://leetcode.com/problems/clone-graph/) |
 |9  | [Number of Operations to Make Network Connected](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/NumberOFOperationsToMakeNetworkConnected.java) | [Leetcode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |
