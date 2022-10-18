@@ -100,9 +100,9 @@
 ### 9. Binary Search Tree
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
-|1  | [Delete Node in a BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/DeleteNodeInBST.cpp) | [Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/) |
-|2  | [Validate Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/ValidateBST.cpp) | [Leetcode](https://leetcode.com/problems/validate-binary-search-tree/) |
-|3  | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/LowestCommonAncestor.cpp) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
+|1  | [Delete Node in a BST](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/DeleteNodeFromBST.java) | [Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/) |
+|2  | [Validate Binary Search Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/ValidateBinarySearchTree.java) | [Leetcode](https://leetcode.com/problems/validate-binary-search-tree/) |
+|3  | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/LowestCommonAncestorBST.java) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
 |4  | [Construct Binary Search Tree from Preorder Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BSTFromPreorder.cpp) | [Leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |
 |5  | [Binary Tree to BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BinaryTreeToBST.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1#) |
 |6  | [Balance a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BalanceBST.cpp) | [Leetcode](https://leetcode.com/problems/balance-a-binary-search-tree/) |
