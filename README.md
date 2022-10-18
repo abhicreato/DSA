@@ -122,9 +122,9 @@
 |6  | [Minimum Steps By Knight](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MinStepsByKnight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
 |7  | [Flood Fill](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/FloodFill.java) | [Leetcode](https://leetcode.com/problems/flood-fill/) |
 |8  | [Clone Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CloneGraph.java) | [Leetcode](https://leetcode.com/problems/clone-graph/) |
-|9  | [Number of Operations to Make Network Connected](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/ConnectNetworks.cpp) | [Leetcode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |
+|9  | [Number of Operations to Make Network Connected](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/NumberOFOperationsToMakeNetworkConnected.java) | [Leetcode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |
 |10  | [Word Ladder](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/WordLadder.cpp) | [Leetcode](https://leetcode.com/problems/word-ladder/) |
-|11  | [Djikstra's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Djikstra.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1#) |
+|11  | [Djikstra's Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DjikstraAlgorithm.java) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1#) |
 |12  | [Topological Sort](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TopologicalSort.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/topological-sort/1#) |
 |13  | [Number of Islands](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/NumberOfIslands.cpp) | [Leetcode](https://leetcode.com/problems/number-of-islands/) |
 |14  | [Alien Dictionary](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/AlienDictionary.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/alien-dictionary/1#) |
