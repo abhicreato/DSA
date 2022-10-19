@@ -100,9 +100,9 @@
 ### 9. Binary Search Tree
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
-|1  | [Delete Node in a BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/DeleteNodeInBST.cpp) | [Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/) |
-|2  | [Validate Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/ValidateBST.cpp) | [Leetcode](https://leetcode.com/problems/validate-binary-search-tree/) |
-|3  | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/LowestCommonAncestor.cpp) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
+|1  | [Delete Node in a BST](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/DeleteNodeFromBST.java) | [Leetcode](https://leetcode.com/problems/delete-node-in-a-bst/) |
+|2  | [Validate Binary Search Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/ValidateBinarySearchTree.java) | [Leetcode](https://leetcode.com/problems/validate-binary-search-tree/) |
+|3  | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/BST/LowestCommonAncestorBST.java) | [Leetcode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
 |4  | [Construct Binary Search Tree from Preorder Traversal](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BSTFromPreorder.cpp) | [Leetcode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |
 |5  | [Binary Tree to BST](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BinaryTreeToBST.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1#) |
 |6  | [Balance a Binary Search Tree](https://github.com/pr7prashant/dsa-practice/blob/master/BinarySearchTree/BalanceBST.cpp) | [Leetcode](https://leetcode.com/problems/balance-a-binary-search-tree/) |
@@ -119,14 +119,14 @@
 |3  | [DFS Traversal Starting From a Given Vertex](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DFSOfGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |
 |4  | [Detect Cycle in a Directed Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DetectCycleDirectedGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
 |5  | [Detect Cycle in an Undirected Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DetectCycleUndirectedGraph.java) | [GFG](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1#) |
-|6  | [Minimum Steps By Knight](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MinStepsByKnight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
+|6  | [Minimum Steps By Knight](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/StepsByKnight.java) | [GFG](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1#) |
 |7  | [Flood Fill](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/FloodFill.java) | [Leetcode](https://leetcode.com/problems/flood-fill/) |
 |8  | [Clone Graph](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CloneGraph.java) | [Leetcode](https://leetcode.com/problems/clone-graph/) |
 |9  | [Number of Operations to Make Network Connected](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/NumberOFOperationsToMakeNetworkConnected.java) | [Leetcode](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |
 |10  | [Word Ladder](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/WordLadder.cpp) | [Leetcode](https://leetcode.com/problems/word-ladder/) |
 |11  | [Djikstra's Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/DjikstraAlgorithm.java) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1#) |
 |12  | [Topological Sort](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TopologicalSort.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/topological-sort/1#) |
-|13  | [Number of Islands](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/NumberOfIslands.cpp) | [Leetcode](https://leetcode.com/problems/number-of-islands/) |
+|13  | [Number of Islands](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/NumberOfIslands.java) | [Leetcode](https://leetcode.com/problems/number-of-islands/) |
 |14  | [Alien Dictionary](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/AlienDictionary.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/alien-dictionary/1#) |
 |15  | [Kruskal's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Kruskal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
 |16  | [Prim's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Prim.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
