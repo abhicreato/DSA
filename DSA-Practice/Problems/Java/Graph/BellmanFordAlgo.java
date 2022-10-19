@@ -46,9 +46,4 @@ public class BellmanFordAlgo {
         return updated;
     }
     
-    public boolean compareDist(int temp[]){
-        return Arrays.equals(this.dist, temp);
-    }
-
-
 }
