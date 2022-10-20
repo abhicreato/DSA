@@ -31,19 +31,19 @@ public class M_ColoringProblem {
         // Your code here
         int color [] = new int[n];
         
-        if(possibleToColor(0,color,m,n,graph)) return true;
+        if(possibleToColorGraph(0, color ,m ,n ,graph)) return true;
         
         else return false;
     }
     
-    boolean possibleToColor(int currNode, int[] color, int m, int N, boolean graph[][] ){
+    boolean possibleToColorGraph(int currNode, int[] color, int m, int N, boolean graph[][] ){
         
         if(currNode == N) return true;
         
         for(int i=1; i<=m; i++){
-            if(canColor(currNode,color,graph,N,i)){
+            if(validToColor(currNode,color,graph,N,i)){
                 color[currNode] = i;
-                if(possibleToColor(currNode + 1, color ,m , N, graph)) return true;
+                if(possibleToColorGraph(currNode + 1, color ,m , N, graph)) return true;
                 color[currNode] = 0;
             }
         }
@@ -52,7 +52,7 @@ public class M_ColoringProblem {
         
     }
     
-    boolean canColor(int node, int[] colors, boolean graph[][], int N, int color){
+    boolean validToColor(int node, int[] colors, boolean graph[][], int N, int color){
         
         for(int i=0;i<N;i++){
             if(graph[node][i] && colors[i] == color){
@@ -69,5 +69,6 @@ public class M_ColoringProblem {
 **************** Logic ****************
 The idea is to assign colours one by one to different vertices, starting from the vertex 0.
 Before assigning a colour, we check for safety by considering already assigned colours to the adjacent vertices.
-If we find a colour assignment which is safe, we mark the colour assignment as part of a solution. If we do not a find colour due to clashes then we backtrack and return false.
+If we find a colour assignment which is safe, we mark the colour assignment as part of a solution. 
+If we do not a find colour due to clashes then we backtrack and return false.
 */
