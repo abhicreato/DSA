@@ -128,8 +128,8 @@
 |12  | [Topological Sort](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/TopologicalSort.java) | [GFG](https://practice.geeksforgeeks.org/problems/topological-sort/1#) |
 |13  | [Number of Islands](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/NumberOfIslands.java) | [Leetcode](https://leetcode.com/problems/number-of-islands/) |
 |14  | [Alien Dictionary](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/AlienDictionary.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/alien-dictionary/1#) |
-|15  | [Kruskal's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Kruskal.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
-|16  | [Prim's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Prim.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
+|15  | [Kruskal's Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/KruskalsAlgoMST.java) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
+|16  | [Prim's Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/PrimsAlgorithmMST.java) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
 |17  | [Bellman Ford Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/BellmanFordAlgo.java) | [GFG](https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1#) |
 |18  | [Floyd Warshall Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/FloydWarshallAlgo.java) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1#) |
 |19  | [Hamiltonian Path](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/HamiltonianPath.java) | [GFG](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1#) |
