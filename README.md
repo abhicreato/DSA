@@ -132,7 +132,7 @@
 |16  | [Prim's Algorithm](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/Prim.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1#) |
 |17  | [Bellman Ford Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/BellmanFordAlgo.java) | [GFG](https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1#) |
 |18  | [Floyd Warshall Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/FloydWarshallAlgo.java) | [GFG](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1#) |
-|19  | [Hamiltonian Path](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/HamiltonianPath.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1#) |
+|19  | [Hamiltonian Path](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/HamiltonianPath.java) | [GFG](https://practice.geeksforgeeks.org/problems/hamiltonian-path2522/1#) |
 |20  | [Travelling Salesman Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TravellingSalesman.cpp) | [-](-) |
 |21  | [Graph Coloring Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/GraphColoring.cpp) | [-](-) |
 |22  | [M Coloring Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/MColoring.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#) |
