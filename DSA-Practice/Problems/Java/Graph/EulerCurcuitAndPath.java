@@ -1,5 +1,27 @@
 package Graph;
 
+/*
+**************** Problem Description ****************
+Check if the graph is Eulerian or not.
+Print Eulerian path for semi Eulerian graph.
+Input :
+First Line contains four space separated integers denoting number of vertices(V) and edges(E).
+The next E line contains two space separated integers denoting an edge from u to v.
+    Example : 1
+    
+    Input:
+    5 5
+    0 1
+    0 2
+    1 2
+    0 3
+    3 4
+    
+    Output:
+    Graph is Semi-Eulerian
+    Euler Path : 0, 1, 2, 0, 3, 4, 
+*/
+
 import java.util.*;
 
 public class EulerCurcuitAndPath {
