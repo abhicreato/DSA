@@ -18,9 +18,7 @@ Next E lines contains three space-separated integers denoting each edge and weig
 
 import java.util.*;
 
-public class KruskalsAlgo {
-
-
+public class KruskalsAlgoMST {
     //Function to find sum of weights of edges of the Minimum Spanning Tree.
     static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) 
     {
@@ -57,21 +55,26 @@ public class KruskalsAlgo {
         // Get Absolute parent of the node based on Union Find Set logic
         if(parents[node] < 0) return node;
         
+        // colapsing logic to reduce recursing for subsequent query requests  
+        // return parents[node] = getAbsParent(parents[node],parents);
+        
+        // Non colapsing logic
         return getAbsParent(parents[node],parents);
        
     }
     
     static void union(Pair node, int [] parents){
         // Merge two Sets based on, Union find logic 
-        // Without ranking logic
+        // Without ranking logic ie 
+        // Connect src Absolute parent to destinations Absolute parent 
+        // OR destination Absolute parent to src Absolute parent 
         int srcAbsParent = getAbsParent(node.src,parents);
         int dstAbsParent = getAbsParent(node.dst,parents);
         
-        parents[srcAbsParent] = dstAbsParent;
+        //parents[srcAbsParent] = dstAbsParent;
+        parents[dstAbsParent] = srcAbsParent;
         
     }
-    
-
     
 }
 

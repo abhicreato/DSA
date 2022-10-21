@@ -26,24 +26,28 @@ Here coloring of a graph means the assignment of colors to all vertices. Print 1
 */
 
 public class M_ColoringProblem {
-    
+    // Function to determine if graph can be coloured with at most M colours
+    // such
+    // that no two adjacent vertices of graph are coloured with same colour.
     public boolean graphColoring(boolean graph[][], int m, int n) {
         // Your code here
         int color [] = new int[n];
         
-        if(possibleToColorGraph(0, color ,m ,n ,graph)) return true;
+        if(possibleToColor(0,color,m,n,graph)) return true;
         
         else return false;
     }
     
-    boolean possibleToColorGraph(int currNode, int[] color, int m, int N, boolean graph[][] ){
+    boolean possibleToColor(int currNode, int[] color, int m, int N, boolean graph[][] ){
         
+        // This means all node are colored
         if(currNode == N) return true;
         
+        // Try to color curr node with all possible colors possible
         for(int i=1; i<=m; i++){
-            if(validToColor(currNode,color,graph,N,i)){
+            if(validToColorNode(currNode,color,graph,N,i)){
                 color[currNode] = i;
-                if(possibleToColorGraph(currNode + 1, color ,m , N, graph)) return true;
+                if(possibleToColor(currNode + 1, color ,m , N, graph)) return true;
                 color[currNode] = 0;
             }
         }
@@ -52,9 +56,10 @@ public class M_ColoringProblem {
         
     }
     
-    boolean validToColor(int node, int[] colors, boolean graph[][], int N, int color){
+    boolean validToColorNode(int node, int[] colors, boolean graph[][], int N, int color){
         
-        for(int i=0;i<N;i++){
+        // Check all neighbor node ans confirm if they have the same color which we are trying to give
+        for(int i=0; i<N; i++){
             if(graph[node][i] && colors[i] == color){
                 return false;
             }
