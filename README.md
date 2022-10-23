@@ -141,7 +141,7 @@
 |25  | [Kosaraju's Algorithm](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/KosarajusAlgo.java) | [GFG](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1#) |
 |26  | [Longest Path in a DAG](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/LongestPathInDAG.cpp) | [-](-) |
 |27  | [Journey to the Moon](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/JourneyToMoon.cpp) | [HackerRank](https://www.hackerrank.com/challenges/journey-to-the-moon/problem) |
-|28  | [Cheapest Flights Within K Stops](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CheapestFlightsWithinKStops.cpp) | [Leetcode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |
+|28  | [Cheapest Flights Within K Stops](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CheapestFlightInKStops.java) | [Leetcode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |
 |29  | [Oliver and the Game](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/OliverAndTheGame.cpp) | [HackerEarth](https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/) |
 |30  | [Water and Jug Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/WaterAndJug.cpp) | [Leetcode](https://leetcode.com/problems/water-and-jug-problem/) |
 |31  | [Minimum edges to reverse to make path from source to destination](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/MinimumEdgeToReverse.java) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-edges/1) |
@@ -149,6 +149,8 @@
 |33  | [Vertex Cover Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/VertexCover.cpp) | [-](-) |
 |34  | [Number of Triangles in Directed and Undirected Graphs](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/CountTriangles.cpp) | [-](-) |
 |35  | [Two Clique Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TwoClique.cpp) | [-](-) |
+|36  | [Course Schedule](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CourseSchedule.java) | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) |
+
 
 
 
