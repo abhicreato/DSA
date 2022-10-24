@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Subsets2 {
 
-    
     Set<List<Integer>> ans = new HashSet<>();
     ArrayList<List<Integer>> ansl = new ArrayList();
     
