@@ -151,6 +151,60 @@
 |35  | [Two Clique Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Graph/TwoClique.cpp) | [-](-) |
 |36  | [Course Schedule](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Graph/CourseSchedule.java) | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) |
 
+### 13. Dynamic Programming
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [0-1 Knapsack Problem](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/KnapSack.java) | [GFG](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) |
+|2  | [Subset Sum Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/SubsetSum.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
+|3  | [Partition Equal Subset Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/EqualSubsetSum.cpp) | [Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) |
+|4  | [Count of subsets with sum equal to X](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CountSubsetSum.cpp) | [-](-) |
+|5  | [Minimum Sum Partition](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinimumSumPartition.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1#) |
+|6  | [Target Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/TargetSum.cpp) | [Leetcode](https://leetcode.com/problems/target-sum/) |
+|7  | [Unbounded Knapsack](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/UnboundedKnapsack.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1#) |
+|8  | [Rod Cutting Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/RodCutting.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1#) |
+|9  | [Coin Change 1](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CoinChange1.cpp) | [Leetcode](https://leetcode.com/problems/coin-change) |
+|10  | [Coin Change 2](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CoinChange2.cpp) | [Leetcode](https://leetcode.com/problems/coin-change-2/) |
+|11  | [Longest Common Subsequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestCommonSubsequence.cpp) | [Leetcode](https://leetcode.com/problems/longest-common-subsequence/) |
+|12  | [Longest Common Substring](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestCommonSubstring.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1#) |
+|13  | [Minimum number of deletions and insertions to transform string A to B](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinInsertionAndDeletion.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1#) |
+|14  | [Shortest Common Supersequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/ShortestCommonSuperSequence.cpp) | [Leetcode](https://leetcode.com/problems/shortest-common-supersequence/) |
+|15  | [Longest Palindromic Supersequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestPalindromicSubsequence.cpp) | [Leetcode](https://leetcode.com/problems/longest-palindromic-subsequence/) |
+|16  | [Longest Repeating Supersequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestRepeatingSubsequence.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1#) |
+|17  | [Minimum Insertion Steps to Make a String Palindrome](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinInsertionToMakePalindrome.cpp) | [Leetcode](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) |
+|18  | [Matrix Chain Multiplication](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MatrixChainMultiplication.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1#) |
+|19  | [Palindromic Partitioning](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/PalindromicPartitioning.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1#) |
+|20  | [Boolean Parenthesization](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/BooleanParenthesization.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1#) |
+|21  | [Scramble String](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/ScrambleString.cpp) | [Leetcode](https://leetcode.com/problems/scramble-string/) |
+|22  | [Egg Dropping Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/EggDropping.cpp) | [Leetcode](https://leetcode.com/problems/super-egg-drop/) |
+|23  | [nCr (Pascal's Triangle)](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/nCr.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/ncr1019/1#) |
+|24  | [Nth Catalan Number](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CatalanNumber.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/nth-catalan-number0817/1#) |
+|25  | [Edit Distance](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/EditDistance.cpp) | [Leetcode](https://leetcode.com/problems/edit-distance/) |
+|26  | [Friends Pairing Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/FriendsPairing.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1#) |
+|27  | [Paint Fence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/PaintFence.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/painting-the-fence3727/1#) |
+|28  | [Maximize Cut Segments](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MaxCutSegments.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/cutted-segments1642/1#) |
+|29  | [Longest Increasing Subsequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestIncreasingSubsequence.cpp) | [Leetcode](https://leetcode.com/problems/longest-increasing-subsequence/) |
+|30  | [Longest Common Subsequence of 3 Strings](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LCSof3Strings.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/lcs-of-three-strings0028/1#) |
+|31  | [Maximum Sum Increasing Subsequence](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MaxSumIncreasingSubsequence.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1#) |
+|32  | [Maximum Length of Pair Chain](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MaxLengthChain.cpp) | [Leetcode](https://leetcode.com/problems/maximum-length-of-pair-chain/) |
+|33  | [Maximal Square](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MaximalSquare.cpp) | [Leetcode](https://leetcode.com/problems/maximal-square/) |
+|34  | [Pairs with Specific Difference](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/SpecificDifferencePairs.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1#) |
+|35  | [Minimum Path Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinimumPathSum.cpp) | [Leetcode](https://leetcode.com/problems/minimum-path-sum/) |
+|36  | [Jump Game](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/JumpGame.cpp) | [Leetcode](https://leetcode.com/problems/jump-game/) |
+|37  | [Jump Game 2](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/JumpGame2.cpp) | [Leetcode](https://leetcode.com/problems/jump-game-ii/) |
+|38  | [Minimum cost to fill given weight in a bag](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinCostToFillWeight.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/1#) |
+|39  | [Count Balanced Binary Trees of Height h](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/BBTCounter.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/bbt-counter4914/1#) |
+|40  | [Maximum Subarray (Kadane's Algorithm)](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MaxSubArray.cpp) | [Leetcode](https://leetcode.com/problems/maximum-subarray/) |
+|41  | [Count Palindromic Subsequences](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CountPalindromicSubsequences.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#) |
+|42  | [Longest Palindromic Substring](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/LongestPalindromicSubstring.cpp) | [Leetcode](https://leetcode.com/problems/longest-palindromic-substring/) |
+|43  | [Maximum profit by buying and selling a stock atmost twice](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/BuyAndSellStock3.cpp) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) |
+|44  | [Word Wrap](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/WordWrap.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/word-wrap1646/1#) |
+|45  | [Mobile Numeric Keypad](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MobileNumericKeypad.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1#) |
+|46  | [Interleaving String](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/InterleavingString.cpp) | [Leetcode](https://leetcode.com/problems/interleaving-string/) |
+|47  | [Maximum Profit in Job Scheduling](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/JobSchedulingMaxProfit.cpp) | [Leetcode](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |
+|48  | [Cheapest Flights Within K Stops](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CheapestFlightsWithinKStops.cpp) | [Leetcode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |
+|49  | [Burst Balloons](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/BurstBalloons.cpp) | [Leetcode](https://leetcode.com/problems/burst-balloons/) |
+|50  | [Cherry Pickup 2](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CherryPickup2.cpp) | [Leetcode](https://leetcode.com/problems/cherry-pickup-ii/) |
+
 
 
 
