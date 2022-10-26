@@ -155,7 +155,7 @@
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
 |1  | [0-1 Knapsack Problem](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/KnapSack.java) | [GFG](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) |
-|2  | [Subset Sum Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/SubsetSum.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
+|2  | [Subset Sum Problem](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/SubsetSumProblem.java) | [GFG](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
 |3  | [Partition Equal Subset Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/EqualSubsetSum.cpp) | [Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) |
 |4  | [Count of subsets with sum equal to X](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CountSubsetSum.cpp) | [-](-) |
 |5  | [Minimum Sum Partition](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinimumSumPartition.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1#) |
