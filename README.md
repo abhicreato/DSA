@@ -156,10 +156,10 @@
 | --- | --------- | --------- |
 |1  | [0-1 Knapsack Problem](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/KnapSack.java) | [GFG](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) |
 |2  | [Subset Sum Problem](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/SubsetSumProblem.java) | [GFG](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
-|3  | [Partition Equal Subset Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/EqualSubsetSum.cpp) | [Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) |
-|4  | [Count of subsets with sum equal to X](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CountSubsetSum.cpp) | [-](-) |
-|5  | [Minimum Sum Partition](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/MinimumSumPartition.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1#) |
-|6  | [Target Sum](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/TargetSum.cpp) | [Leetcode](https://leetcode.com/problems/target-sum/) |
+|3  | [Partition Equal Subset Sum](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/PartitionEqualSubsetSum.java) | [Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/) |
+|4  | [Count of subsets with sum equal to X](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/CountSubsetSumProblem.java) | [Leetcode](https://leetcode.com/problems/target-sum/) |
+|5  | [Minimum Sum Partition](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/MinimumSumPartition.java) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1#) |
+|6  | [Target Sum](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/DP/TargetSum.java) | [Leetcode](https://leetcode.com/problems/target-sum/) |
 |7  | [Unbounded Knapsack](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/UnboundedKnapsack.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1#) |
 |8  | [Rod Cutting Problem](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/RodCutting.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1#) |
 |9  | [Coin Change 1](https://github.com/pr7prashant/dsa-practice/blob/master/DynamicProgramming/CoinChange1.cpp) | [Leetcode](https://leetcode.com/problems/coin-change) |
