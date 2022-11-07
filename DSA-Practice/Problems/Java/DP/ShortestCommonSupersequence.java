@@ -43,14 +43,14 @@ public class ShortestCommonSupersequence {
             }
         }
 
-        // To find length of shortes supersequence
+        // To find length of shortest supersequence
         //return (l1+l2) - dp[l1][l2];
 
         // To print shortest supersequence 
         int i = l1;
         int j = l2;
 
-        while(i>0 && j>0){
+        while(i > 0 && j > 0){
             if(str1.charAt(i-1) == str2.charAt(j-1)){
                 ans.append(str1.charAt(i-1));
                 i--;
@@ -84,13 +84,16 @@ public class ShortestCommonSupersequence {
 
 /*
 **************** Logic ****************
-Compute the LCS using Dynamic Programming tabulation where each cell resturs the length of the cell upto i characters of String 1 and j characters of string 2.
-We will start processing the table using the last cell till i>0 or j>0
+Compute the LCS using Dynamic Programming tabulation where each cell resturs the length of the cell upto i 
+characters of String 1 and j characters of string 
+2.We will start processing the table using the last cell till i>0 or j>0
 2.1) Check if s1[i-1]==s2[j-1]. If equal, we must add this character to the result string only once
+
 2.2) If not equal, then find the maximum of t[i-1][j] and t[i][j-1] (this is how you had calculated LCS length first),
 start moving in the max direction after inserting the character to the result string.
 Moving in max direction means discarding that character of the string that has not contributed in LCS.
 But still inserting in the final string because it will contribute in SuperSequence.
+
 2.3) Compute till i>0 && j>0. If any of the string is left i.e if i>0 or j>0 then add its characters to the result.
 This means that we copied 1 complete string but other is still remaining.
 */
