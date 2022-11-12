@@ -1,7 +1,6 @@
 package DP;
 
 public class CoinChangeMinCoins {
-
     int[][] dp;
         
     public int coinChange(int[] coins, int amount) {
@@ -9,7 +8,7 @@ public class CoinChangeMinCoins {
         int n = coins.length;
         
         dp = new int[n + 1][amount + 1];
-
+        
         for(int i=0;i<=n;i++){
             for(int j=0;j<=amount;j++){
                 if(i == 0) dp[i][j] = Integer.MAX_VALUE - 1;
@@ -29,16 +28,17 @@ public class CoinChangeMinCoins {
             }
         }
  
-        // recursive Memoization
-        // for(int i=0;i<=n;i++){
-        //     for(int j=0;j<=amount;j++){
-        //         dp[i][j] = -1;
-        //     }
-        // }
-        
-        // int min = solve(n - 1, amount, coins);
 
+        /*for(int i=0;i<=n;i++){
+            for(int j=0;j<=amount;j++){
+                dp[i][j] = -1;
+            }
+        }
+        
+        int min = solve(n - 1, amount, coins);*/
+        
         int min = dp[n][amount];
+        
         
         if(min < Integer.MAX_VALUE - 1) return min;
         
@@ -65,5 +65,4 @@ public class CoinChangeMinCoins {
         }     
         
     }
-    
 }

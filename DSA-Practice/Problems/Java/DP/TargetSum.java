@@ -36,13 +36,11 @@ public class TargetSum {
         
         for(int i=1;i<=n;i++){
             for(int j=0;j<=target;j++){
-                
                 if(j >= nums[i-1]){
                     dp[i][j] = dp[i-1][j-nums[i-1]] + dp[i-1][j];
                 }else{
                     dp[i][j] = dp[i-1][j];
                 }
-                
             }
         }
         
