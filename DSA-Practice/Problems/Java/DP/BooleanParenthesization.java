@@ -35,10 +35,20 @@ public class BooleanParenthesization {
     static int countWays(int N, String S){
         // code here
         Map<String,Integer> map = new HashMap<>();
-        return solve(S, 0, N - 1, true, map);
+        int [][][] dp = new int[N+1][N+1][2];
+        
+        for(int [][]rows: dp)
+        {
+            for(int []col:rows)
+            {
+                Arrays.fill(col,-1);
+            }
+        }
+        
+        return solve(S, 0, N - 1, true, map, dp);
     }
     
-    static int solve(String s, int i, int j, boolean isTrue, Map<String,Integer> map){
+    static int solve(String s, int i, int j, boolean isTrue, Map<String,Integer> map, int[][][] dp){
         
         if(i>j) return 0;
         
@@ -50,18 +60,22 @@ public class BooleanParenthesization {
             }
         }
         
-        String key = i + " " +  j + " " + (isTrue ? "T" : "F");
+        // using 3D Array 
+        int expnum=(isTrue) ? 1 : 0;
+        if(dp[i][j][expnum] != -1) return dp[i][j][expnum];
         
-        if(map.containsKey(key)) return map.get(key);
+        // using Map
+        // String key = i + " " +  j + " " + (isTrue ? "T" : "F");
+        // if(map.containsKey(key)) return map.get(key);
         
         int ans = 0;
         
         for(int k = i + 1; k < j; k+=2){
             
-            int lTrue = solve(s, i, k - 1, true, map);
-            int lFalse = solve(s, i, k - 1, false, map);
-            int rTrue = solve(s, k + 1, j, true, map);
-            int rFalse = solve(s, k + 1, j, false, map);
+            int lTrue = solve(s, i, k - 1, true, map, dp);
+            int lFalse = solve(s, i, k - 1, false, map, dp);
+            int rTrue = solve(s, k + 1, j, true, map, dp);
+            int rFalse = solve(s, k + 1, j, false, map, dp);
             
             if(s.charAt(k) == '&'){
                 
@@ -93,9 +107,13 @@ public class BooleanParenthesization {
             
         }
         
-        map.put(key, ans%1003);
+        // using 3D array
+        dp[i][j][expnum]=(int) (ans %1003);
+        return dp[i][j][expnum];
         
-        return ans%1003;
+        // Question asked for modulo 1003
+        //map.put(key, ans%1003);
+        //return ans%1003;
         
     }
 
