@@ -34,8 +34,8 @@ public class SuperEggDrop {
 
             worstCaseAns = 1 + Math.max(eggBreak, eggDntBreak);
 
-            if(eggBreak<eggDntBreak){        // since right is more than left and we need more in worst case 
-                l=k+1;                       // so l=mid+1 to gain more temp for worst case : upward
+            if(eggBreak<eggDntBreak){        //  since right is more than left and we need more in worst case 
+                l=k+1;                       //  so l=mid+1 to gain more temp for worst case : upward
             }else{    
                 r=k-1;
             }
