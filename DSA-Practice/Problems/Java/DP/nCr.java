@@ -1,3 +1,4 @@
+package DP;
 public class nCr {
     
     static int nCr(int n, int r)
@@ -21,10 +22,12 @@ public class nCr {
             }
         }
         
-        for(int i=1;i<n+1;i++){
-            for(int j=1;j<r+1;j++){
-                System.out.println(dp[i][j]);
+        // Triangle printer
+        for(int i=0;i<n+1;i++){
+            for(int j=0;j<r+1;j++){
+                System.out.print((int)dp[i][j] + " | ");
             }
+            System.out.println();
         }
         
         return (int) dp[n][r];
