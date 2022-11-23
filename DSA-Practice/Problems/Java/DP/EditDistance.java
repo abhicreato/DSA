@@ -40,3 +40,18 @@ public class EditDistance {
     }
     
 }
+
+
+/*
+**************** Logic ****************
+* Recursive solution.
+     * For each poisition, check three subproblem:
+     * 1. insert
+     * 2. delete
+     * 3. replace
+     * We only modify the first string since no matter which one we choose, the result is the same. 
+     * Appromixately O(len1 ^ 3) time in the worst case.
+     * Need to optimize it using cache, which is the idea of dynamic programming. 
+     * The key point is to find out the subproblem we have solved duplicately and cache the recursion.
+     * Noticed that each subproblem is specificed by i and j pointer, so we can cache the result of these subproblems. 
+*/
