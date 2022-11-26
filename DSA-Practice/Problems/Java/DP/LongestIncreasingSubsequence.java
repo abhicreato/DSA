@@ -27,6 +27,7 @@ public class LongestIncreasingSubsequence {
         // }
 
         // Tabulation 
+        // https://www.youtube.com/watch?v=odrfUCS9sQk&t=1388s
         dp2 = new int[l];
         dp2[0] = 1;
         int ans = 0;
