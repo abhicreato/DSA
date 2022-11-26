@@ -30,7 +30,7 @@ public class LCSOfThreeStrings {
             
             int x = solve(A, B, C, n1 - 1, n2, n3);
             int y = solve(A, B, C, n1, n2 - 1, n3);
-             int z = solve(A, B, C, n1, n2 , n3 - 1);
+            int z = solve(A, B, C, n1, n2 , n3 - 1);
             
             return dp[n1][n2][n3] = Math.max(x, Math.max(y,z));
         }
