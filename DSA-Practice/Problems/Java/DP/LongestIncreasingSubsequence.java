@@ -26,11 +26,13 @@ public class LongestIncreasingSubsequence {
         //     input[i] = nums[i-1];
         // }
 
+        // Tabulation 
         dp2 = new int[l];
         dp2[0] = 1;
         int ans = 0;
 
         for(int i = 1; i < l; i++){
+
             int max = 0;
 
             for(int j = 0; j < i ; j++){
