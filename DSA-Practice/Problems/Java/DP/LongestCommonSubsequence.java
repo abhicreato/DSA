@@ -2,8 +2,6 @@ package DP;
 
 public class LongestCommonSubsequence {
 
-    
-    
     int dp[][] ;
     
     public int longestCommonSubsequence(String text1, String text2) {
