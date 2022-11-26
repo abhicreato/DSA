@@ -1,5 +1,19 @@
 package DP;
 
+/*
+**************** Problem Description ****************
+Given a fence with n posts and k colors, find out the number of ways of painting the fence so that not more than two consecutive fences have the same colors.
+Since the answer can be large return it modulo 10^9 + 7.
+    Example : 1
+        
+    Input: N=3,  K=2 
+    Output: 6
+    Example : 2
+    
+    Input: N=2,  K=4
+    Output: 16
+*/
+
 public class PaintingTheFence {
 
     double mod = 1e9 + 7;
@@ -16,8 +30,8 @@ public class PaintingTheFence {
         
         // tabulation
         dp[0] = 0;
-        dp[1] = k;
-        dp[2] = k + (k * (k - 1));
+        dp[1] = k; // same 
+        dp[2] = k + (k * (k - 1)); // same + diffrent
         
         double twoSameColor = 0;
         double twoDiffColor = 0;
@@ -42,7 +56,7 @@ public class PaintingTheFence {
         
         if(n == 1) return k;
         
-        if(dp[n] !=-1) return dp[n];
+        if(dp[n] != -1) return dp[n];
         
         double twoSameColor = 0;
         double twoDiffColor = 0;
@@ -53,8 +67,8 @@ public class PaintingTheFence {
             return twoSameColor + twoDiffColor;
         } 
 
-        twoSameColor = solve(n - 2, k) * (k - 1);
-        twoDiffColor = solve(n - 1, k) * (k - 1);
+        twoSameColor = solve(n - 2, k) * (k - 1); // same = no of ways when color of last two posts is same
+        twoDiffColor = solve(n - 1, k) * (k - 1); //no of ways when color of last two posts is different
         
         return dp[n] = (twoSameColor + twoDiffColor) % mod;
         
@@ -62,3 +76,24 @@ public class PaintingTheFence {
 
     
 }
+
+/*
+**************** Logic ****************
+ same = no of ways when color of last two posts is same
+ diff = no of ways when color of last two posts is different
+ total ways = diff + sum
+for n = 1
+    same(1) = 0, diff(1) = k
+    total(1) = k
+for n = 2
+    same(2) = k // k choices for common color of two posts
+    diff(2) = k * (k-1) // k choices for first post, k-1 for next
+    total(2) = k +  k * (k-1)
+for n = 3
+    same(3) = diff(2)
+    diff(3) = total(2) * (k-1) // (k-1) choices for 3rd post to not have color of 2nd post.
+Hence we deduce that, for i > 2 :
+same[i] = diff[i-1]
+diff[i] = total[i-1] * (k-1)
+total[i] = same[i] + diff[i]
+*/
