@@ -28,7 +28,7 @@ public class PaintingTheFence {
         
         dp = new double[n+1];
         
-        // tabulation
+        //  tabulation
         dp[0] = 0;
         dp[1] = k; // same 
         dp[2] = k + (k * (k - 1)); // same + diffrent
