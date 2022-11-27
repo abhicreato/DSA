@@ -13,11 +13,6 @@ public class MaximumLengthPairChain {
 
         // Dp Array init
         dp = new int[len+1][len+1];
-        for(int i=0;i<=len;i++){
-            for(int j=0;j<=len;j++){
-                dp[i][j] = -1;
-            }
-        }
 
         // Adding base case to 0th Index ans shift
         int inputArr[][] = new int[len + 1][2];
