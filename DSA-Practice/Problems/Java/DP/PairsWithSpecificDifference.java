@@ -46,8 +46,7 @@ public class PairsWithSpecificDifference {
         }else{
             return dp[currIndex][preValIndex] = solve(arr, currIndex + 1, preValIndex + 1, N, K);
         }
-        
-        
+     
     }
     
 
