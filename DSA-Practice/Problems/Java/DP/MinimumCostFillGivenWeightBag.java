@@ -22,7 +22,7 @@ public class MinimumCostFillGivenWeightBag {
 	    
 	    if(W == 0) return 0;
 	    
-	    if(N == 0) return Integer.MAX_VALUE;
+	    if(N == 0) return 100000;
 	    
 	    if(dp[N][W] != -1) return dp[N][W];
 	    
