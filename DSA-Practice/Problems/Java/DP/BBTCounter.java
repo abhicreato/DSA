@@ -33,3 +33,17 @@ public class BBTCounter {
 
     
 }
+
+/*
+**************** Logic ****************
+Since the difference between the heights of left and right subtree is not more than one, possible heights of left and right part can be one of the following:
+(h-1), (h-2)
+(h-2), (h-1)
+(h-1), (h-1)
+count(h) = count(h-1) * count(h-2) + 
+           count(h-2) * count(h-1) + 
+           count(h-1) * count(h-1)
+           
+        = 2 * count(h-1) * count(h-2) + count(h-1) * count(h-1)
+        = count(h-1) * (2*count(h - 2) + count(h - 1))
+*/
