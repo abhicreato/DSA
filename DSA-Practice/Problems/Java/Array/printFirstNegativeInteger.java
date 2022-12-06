@@ -1,5 +1,6 @@
 import java.util.*;
 public class PrintFirstNegativeInteger{
+    
         
     public long[] printFirstNegativeInteger(long A[], int N, int K)
     {
