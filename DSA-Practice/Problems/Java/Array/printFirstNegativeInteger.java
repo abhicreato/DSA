@@ -1,4 +1,7 @@
-public long[] printFirstNegativeInteger(long A[], int N, int K)
+import java.util.*;
+public class PrintFirstNegativeInteger{
+        
+    public long[] printFirstNegativeInteger(long A[], int N, int K)
     {
         long [] output = new long[N-K+1];
         Queue<Long> q = new LinkedList<>();
@@ -30,6 +33,9 @@ public long[] printFirstNegativeInteger(long A[], int N, int K)
             }
         }
 
+        
+
         return output;
      
     }
+}
