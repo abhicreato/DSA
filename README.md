@@ -2,6 +2,54 @@
 
 #Java
 
+### 0. Array
+| No. | Problem | Practice Link |
+| --- | --------- | --------- |
+|1  | [Max Sum Subarray of size K](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MaxSumSubArrayOfSizeK.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#) |
+|2  | [First negative integer in every window of size k](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstNegativeInWindow.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#) |
+|3  | [Maximum of all sub arrays of size k](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SlidingWindowMaximum.cpp) | [InterviewBit](https://www.interviewbit.com/problems/sliding-window-maximum/#) |
+|4  | [Subarray Sum Equals K](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SubArraysWithSumK.cpp) | [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/) |
+|5  | [Trapping Rain Water](https://github.com/pr7prashant/dsa-practice/blob/master/Array/TrappingRainWater.cpp) | [Leetcode](https://leetcode.com/problems/trapping-rain-water/) |
+|6  | [Gas Station](https://github.com/pr7prashant/dsa-practice/blob/master/Array/GasStation.cpp) | [Leetcode](https://leetcode.com/problems/gas-station/) |
+|7  | [Merge Intervals](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MergeIntervals.cpp) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
+|8  | [Find First and Last Position of Element in Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstAndLastPosInSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|9  | [Check if Array Is Sorted and Rotated](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CheckSortedRotatedArray.cpp) | [Leetcode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
+|10  | [Find Minimum in Rotated Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinInRotatedSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
+|11  | [Search in Rotated Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SearchInRotatedSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+|12  | [Search Insert Position](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SearchInsertPosition.cpp) | [Leetcode](https://leetcode.com/problems/search-insert-position/) |
+|13  | [Next Alphabetical Element](https://github.com/pr7prashant/dsa-practice/blob/master/Array/NextAlphabeticalElement.cpp) | [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |
+|14  | [Find Peak Element](https://github.com/pr7prashant/dsa-practice/blob/master/Array/PeakElement.cpp) | [Leetcode](https://leetcode.com/problems/find-peak-element/) |
+|15  | [Search in a 2D Sorted Matrix](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SearchInMatix.cpp) | [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/) |
+|16  | [Allocate minimum number of pages](https://github.com/pr7prashant/dsa-practice/blob/master/Array/AllocateMinPages.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1#) |
+|17  | [The Celebrity Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CelebrityProblem.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
+|18  | [Minimize maximum difference between the heights](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinimizeHeights.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#) |
+|19  | [Find the Duplicate Number](https://github.com/pr7prashant/dsa-practice/blob/master/Array/DuplicateNumber.cpp) | [Leetcode](https://leetcode.com/problems/find-the-duplicate-number/) |
+|20  | [Merge 2 sorted arrays without extra space](https://github.com/pr7prashant/dsa-practice/blob/master/Array/Merge2SortedArrays.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1#) |
+|21  | [Maximum Subarray (Kadane's Algorithm)](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MaxSubArray.cpp) | [Leetcode](https://leetcode.com/problems/maximum-subarray/) |
+|22  | [Next Permutation](https://github.com/pr7prashant/dsa-practice/blob/master/Array/NextPermutation.cpp) | [Leetcode](https://leetcode.com/problems/next-permutation/) |
+|23  | [Count Inversions](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CountInversions.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1#) |
+|24  | [Best Time to Buy and Sell Stock](https://github.com/pr7prashant/dsa-practice/blob/master/Array/BuyAndSellStock.cpp) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+|25  | [Two Sum](https://github.com/pr7prashant/dsa-practice/blob/master/Array/TwoSum.cpp) | [Leetcode](https://leetcode.com/problems/two-sum/) |
+|26  | [Three Sum](https://github.com/pr7prashant/dsa-practice/blob/master/Array/ThreeSum.cpp) | [Leetcode](https://leetcode.com/problems/3sum/) |
+|27  | [Common Elements](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CommonElements.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/common-elements1132/1#) |
+|28  | [Subarray with 0 Sum](https://github.com/pr7prashant/dsa-practice/blob/master/Array/ZeroSumSubarray.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1#) |
+|29  | [Chocolate Distribution Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Array/ChocolateDistribution.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1#) |
+|30  | [Sort Colors](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SortColors.cpp) | [Leetcode](https://leetcode.com/problems/sort-colors/) |
+|31  | [Minimum swaps and K together](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinSwapsForKTogether.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1#) |
+|32  | [Median of Two Sorted Arrays](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MedianOf2SortedArrays.cpp) | [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/) |
+|33  | [Median in a Row Wise Sorted Matrix](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MedianInRowSortedMatrix.cpp) | [InterviewBit](https://www.interviewbit.com/problems/matrix-median/) |
+|34  | [Rotate Image](https://github.com/pr7prashant/dsa-practice/blob/master/Array/RotateImage.cpp) | [Leetcode](https://leetcode.com/problems/rotate-image/) |
+|35  | [Kth Smallest Element in a Sorted Matrix](https://github.com/pr7prashant/dsa-practice/blob/master/Array/KthSmallestInSortedMatrix.cpp) | [Leetcode](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |
+|36  | [Square Root of a Number](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SquareRoot.cpp) | [Leetcode](https://leetcode.com/problems/sqrtx/) |
+|37  | [Repeat and Missing Number Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MissingAndRepeatingElement.cpp) | [InterviewBit](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) |
+|38  | [Majority Element](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MajorityElement.cpp) | [Leetcode](https://leetcode.com/problems/majority-element/) |
+|39  | [K-diff Pairs in an Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/KDiffPairs.cpp) | [Leetcode](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |
+|40  | [Four Sum](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FourSum.cpp) | [Leetcode](https://leetcode.com/problems/4sum/) |
+|41  | [Minimum Swaps to Sort](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinSwapsToSort.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimum-swaps/1#) |
+|42  | [Magnetic Force Between Two Balls](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MaxForceBetweenBalls.cpp) | [Leetcode](https://leetcode.com/problems/magnetic-force-between-two-balls/) |
+|43  | [Container With Most Water](https://github.com/pr7prashant/dsa-practice/blob/master/Array/ContainerWithMostWater.cpp) | [Leetcode](https://leetcode.com/problems/container-with-most-water/) |
+
+
 ### 1. Linked List
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
