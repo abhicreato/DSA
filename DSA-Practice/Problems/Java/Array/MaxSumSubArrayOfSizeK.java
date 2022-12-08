@@ -13,28 +13,31 @@ Return the maximum sum of a subarray of size K.
     which is maximum.
 */
 
+import java.util.*;
+
 class MaxSumSubArrayOfSizeK {
-    public static void main(String[] args) {
-        System.out.println("MaxSumSubArrayOfSizeK");
-    }
 
-    public static int MaxSumSubArrayOfSizeK(int[] nums, int k){
+    static long maximumSumSubarray(int K, ArrayList<Integer> Arr, int N) {
+        // code here
         int i = 0;
-        int j=0;
-        int sum=0;
-        int max = 0;
+        int j = 0;
+        long sum = 0;
+        long max = Integer.MIN_VALUE;
 
-        while(j<arr.length){
-            sum = sum + nums[j];
-            if(j-i+1 <k){
-                j++;
-            }else if(j-i+1 == k){
+        while (j < N) {
+
+            sum = sum + Arr.get(j);
+
+            if (j - i + 1 == K) {
                 max = Math.max(max, sum);
-                sum = sum - nums[i];
+                sum = sum - Arr.get(i);
                 i++;
-                j++;
             }
+
+            j++;
+
         }
+
         return max;
     }
 }

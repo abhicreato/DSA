@@ -26,3 +26,9 @@ public class SubarraySumEqualsK {
     }
     
 }
+
+/*
+**************** Logic ****************
+Iterate over the array and keep storing the available sums in a hashmap.
+sum(i,j) = sum(0,j) - sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1.
+*/
