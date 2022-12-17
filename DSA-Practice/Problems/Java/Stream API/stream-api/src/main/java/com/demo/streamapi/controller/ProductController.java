@@ -8,6 +8,7 @@ import com.demo.streamapi.service.OrderManagementStream;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -28,5 +29,16 @@ public class ProductController {
     @GetMapping("/{category}")
     public List<Product> getAllProductByCategoryAndPriceGreaterThan(@PathVariable String category, @RequestParam double priceGreaterThan){
         return orderManagement.getProductByCategoryAndPriceGreaterThan(category, priceGreaterThan);
+    }
+
+    @GetMapping("/discount/{category}")
+    public List<Product> getAllProductByCategoryWithDiscount(@PathVariable String category){
+        return orderManagement.getProjductByCategoryWithDiscount(category,10);
+    }
+
+    @GetMapping("orderdByCustomerTier/{tier}")
+    public List<Product> getAllProductOrderedByCustomerTierBetweenDays(
+            @PathVariable Integer customerTier, @RequestParam LocalDate startDay, @RequestParam LocalDate endDay){
+        return orderManagement.getProductsByCustomerOfTierBetweenDays(customerTier,startDay,endDay);
     }
 }
