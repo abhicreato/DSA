@@ -5,13 +5,12 @@ import com.demo.streamapi.repository.OrderRepository;
 import com.demo.streamapi.repository.ProductRepository;
 import com.demo.streamapi.service.OrderManagementStream;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController("product")
+@RestController
+@RequestMapping("/product")
 public class ProductController {
 
     @Autowired
@@ -25,8 +24,8 @@ public class ProductController {
         return productRepository.findAll();
     }
 
-    @GetMapping("/")
-    public List<Product> getAllProductByCategoryAndPriceGreaterThen(){
-        return orderManagementStream.getProductByCategoryAndPriceGreaterThen("", 100.0);
+    @GetMapping("/{category}")
+    public List<Product> getAllProductByCategoryAndPriceGreaterThan(@PathVariable String category, @RequestParam double priceGreaterThan){
+        return orderManagementStream.getProductByCategoryAndPriceGreaterThan(category, priceGreaterThan);
     }
 }

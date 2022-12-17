@@ -9,7 +9,7 @@ public interface OrderManagement {
     /*
     Exercise 1 — Obtain a list of products belongs to category “Books” with price > 100
     */
-    public List<Product> getProductByCategoryAndPriceGreaterThen(String category, Double price);
+    public List<Product> getProductByCategoryAndPriceGreaterThan(String category, Double price);
 
 
 }
