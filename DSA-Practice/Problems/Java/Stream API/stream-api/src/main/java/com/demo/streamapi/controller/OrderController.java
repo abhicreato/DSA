@@ -1,5 +1,6 @@
 package com.demo.streamapi.controller;
 
+import com.demo.streamapi.entity.Customer;
 import com.demo.streamapi.entity.Order;
 import com.demo.streamapi.entity.Product;
 import com.demo.streamapi.repository.OrderRepository;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -48,6 +50,21 @@ public class OrderController {
     @GetMapping("/avgOrderPaymentByDay")
     public Double getAvgOrderPaymentByDay(@RequestParam LocalDate salesDay){
         return orderManagement.getAvgOrderPaymentByDay(salesDay).orElse(0);
+    }
+
+    @GetMapping("/productCount")
+    public Map<Long,Integer>  getProductCountByOrder(){
+        return orderManagement.getProductCountByOrder();
+    }
+
+    @GetMapping("/byCustomer")
+    public Map<Customer, List<Order>> getOrdersByCustomers(){
+        return orderManagement.getOrdersByCustomer();
+    }
+
+    @GetMapping("withOrderTotal")
+    public Map<Order,Double> getOrderWithTotalPrice(){
+        return orderManagement.getOrderWithTotalPrice();
     }
 
 

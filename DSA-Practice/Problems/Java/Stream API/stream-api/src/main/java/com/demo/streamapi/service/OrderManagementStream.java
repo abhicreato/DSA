@@ -1,5 +1,6 @@
 package com.demo.streamapi.service;
 
+import com.demo.streamapi.entity.Customer;
 import com.demo.streamapi.entity.Order;
 import com.demo.streamapi.entity.Product;
 import com.demo.streamapi.repository.OrderRepository;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Service
@@ -118,5 +120,55 @@ public class OrderManagementStream implements OrderManagement{
 
         return new String(String.format("count = %1$d, average = %2$f, max = %3$f, min = %4$f, sum = %5$f",
                 statistics.getCount(), statistics.getAverage(), statistics.getMax(), statistics.getMin(), statistics.getSum()));
+    }
+
+    @Override
+    public Map<Long,Integer> getProductCountByOrder() {
+        return orderRepository.findAll()
+                .stream()
+                .collect(Collectors.toMap(
+                        o->o.getId(),
+                        o->o.getProducts().size()));
+    }
+
+    @Override
+    public Map<Customer, List<Order>> getOrdersByCustomer() {
+        return orderRepository
+                .findAll()
+                .stream()
+                .collect(Collectors.groupingBy(Order::getCustomer));
+    }
+
+    @Override
+    public Map<Order, Double> getOrderWithTotalPrice() {
+        return orderRepository.findAll()
+                .stream()
+                .collect(Collectors.toMap(
+                        // Since, the key element is the order record itself instead of an order id, so Function.identity()
+                        // is used to tell Collectors.toMap() to use the data element as the key.
+                        Function.identity(),
+                        o -> o.getProducts().stream().mapToDouble(p->p.getPrice()).sum()
+                ));
+    }
+
+    @Override
+    public Map<String, List<String>> getProductByCategory() {
+        return productRepository.findAll()
+                .stream()
+                .collect(Collectors.groupingBy(
+                        p -> p.getCategory(),
+                        Collectors.mapping(p-> p.getName(),Collectors.toList())
+                ));
+    }
+
+    @Override
+    public Map<String, Optional<Product>> getMostExpensiveProductByCategory() {
+        return productRepository
+                .findAll()
+                .stream()
+                .collect(Collectors.groupingBy(
+                        p -> p.getCategory(),
+                        Collectors.maxBy(Comparator.comparing(Product::getPrice))
+                ));
     }
 }

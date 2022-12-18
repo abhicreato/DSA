@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/product")
@@ -58,5 +60,15 @@ public class ProductController {
     @GetMapping("/statistics")
         public String getProductStatisticsByCategory(@RequestParam String category) {
         return orderManagement.getProductStatisticsByCategory(category);
+    }
+
+    @GetMapping("/byCategory")
+    public Map<String,List<String>> getProductByCategory(){
+        return orderManagement.getProductByCategory();
+    }
+
+    @GetMapping("/expensiveByCategory")
+    public Map<String, Optional<Product>> getMostExpensiveProductByCategory(){
+        return orderManagement.getMostExpensiveProductByCategory();
     }
 }

@@ -1,10 +1,12 @@
 package com.demo.streamapi.service;
 
+import com.demo.streamapi.entity.Customer;
 import com.demo.streamapi.entity.Order;
 import com.demo.streamapi.entity.Product;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
@@ -61,4 +63,29 @@ public interface OrderManagement {
     * (i.e. sum, average, max, min, count) for all products of category “Books”
     * */
     String getProductStatisticsByCategory(String category);
+
+    /*
+    * Exercise 11 — Obtain a data map with order id and order’s product count
+    * */
+    Map<Long,Integer>  getProductCountByOrder();
+
+    /*
+    * Exercise 12 — Produce a data map with order records grouped by customer
+    * */
+    Map<Customer, List<Order>> getOrdersByCustomer();
+
+    /*
+    * Exercise 13 — Produce a data map with order record and product total sum
+    * */
+    Map<Order, Double> getOrderWithTotalPrice();
+
+    /*
+    * Exercise 14 — Obtain a data map with list of product name by category
+    * */
+    Map<String, List<String>> getProductByCategory();
+
+    /*
+    * Exercise 15 — Get the most expensive product by category
+    * */
+    Map<String, Optional<Product>> getMostExpensiveProductByCategory();
 }
