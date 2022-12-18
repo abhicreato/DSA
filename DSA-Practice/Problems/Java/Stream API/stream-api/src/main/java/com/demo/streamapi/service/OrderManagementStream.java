@@ -100,4 +100,14 @@ public class OrderManagementStream implements OrderManagement{
                 .flatMapToDouble(o->o.getProducts().stream().mapToDouble(p->p.getPrice()))
                 .sum();
     }
+
+    @Override
+    public Double getAvgOrderPaymentByDay(LocalDate salesDay) {
+        return orderRepository
+                .findAll()
+                .stream()
+                .filter(o->o.getOrderDate().equals(salesDay))
+                .flatMapToDouble(o->o.getProducts().stream().mapToDouble(p->p.getPrice()))
+                .average().getAsDouble();
+    }
 }
