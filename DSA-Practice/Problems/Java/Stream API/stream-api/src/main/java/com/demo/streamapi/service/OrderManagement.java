@@ -5,6 +5,7 @@ import com.demo.streamapi.entity.Product;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 public interface OrderManagement {
 
@@ -28,5 +29,29 @@ public interface OrderManagement {
     */
     public List<Product> getProductsByCustomerOfTierBetweenDays(Integer CustomerTier, LocalDate startDay, LocalDate endDay);
 
+    /*
+    * Exercise 5 — Get the cheapest products of “Books” category
+    * */
+    public Optional<Product> getCheapestProductByCategory(String category);
 
+    /*
+    * Excersie 6 - Get the 3 most recent placed order
+    * */
+    List<Order> getRecentOrders(int limit);
+
+    /*
+    *Exercise 7 — Get a list of orders which were ordered on 15-Mar-2021, log the order
+    *   records to the console and then return its product list
+    * */
+    List<Product> getProductForDay(LocalDate day);
+
+    /*
+    * Exercise 8 — Calculate total lump sum of all orders placed in Feb 2021
+    * */
+    double getOrderSalesAmountByMonth(LocalDate salesMonth);
+
+    /*
+    *Exercise 9 — Calculate order average payment placed on 14-Mar-2021
+    * */
+    Double getAvgOrderPaymentByDay(LocalDate salesDay);
 }

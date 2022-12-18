@@ -8,8 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -23,9 +24,6 @@ public class OrderManagementStream implements OrderManagement{
 
     @Override
     public List<Product> getProductByCategoryAndPriceGreaterThan(String category, Double priceGreaterThen) {
-
-        System.out.println(priceGreaterThen);
-        System.out.println(category);
 
         return productRepository
                 .findAll()
@@ -47,10 +45,11 @@ public class OrderManagementStream implements OrderManagement{
 
     @Override
     public List<Product> getProjductByCategoryWithDiscount(String category, int discountPercentage) {
+
         return productRepository.findAll()
                 .stream()
                 .filter(p->p.getCategory().equalsIgnoreCase(category))
-                .map(p-> p.withPrice(p.getPrice() * (discountPercentage/100)))
+                .map(p-> p.withPrice(p.getPrice() * (0.9)))
                 .collect(Collectors.toList());
     }
 
@@ -63,5 +62,42 @@ public class OrderManagementStream implements OrderManagement{
                 .flatMap(o -> o.getProducts().stream())
                 .distinct()
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public Optional<Product> getCheapestProductByCategory(String category) {
+        return productRepository.findAll()
+                .stream()
+                .filter(p->p.getCategory().equalsIgnoreCase(category))
+                .min(Comparator.comparing(Product::getPrice));
+    }
+
+    @Override
+    public List<Order> getRecentOrders(int limit) {
+        return orderRepository.findAll()
+                .stream()
+                .sorted(Comparator.comparing(Order::getOrderDate).reversed())
+                .limit(limit)
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Product> getProductForDay(LocalDate day) {
+        return orderRepository.findAll()
+                .stream()
+                .filter(o->o.getOrderDate().equals(day))
+                .peek(System.out::println)
+                .flatMap(o->o.getProducts().stream())
+                .distinct()
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public double getOrderSalesAmountByMonth(LocalDate salesMonth) {
+        return orderRepository.findAll()
+                .stream()
+                .filter(o->o.getOrderDate().getMonth().equals(salesMonth.getMonth()))
+                .flatMapToDouble(o->o.getProducts().stream().mapToDouble(p->p.getPrice()))
+                .sum();
     }
 }

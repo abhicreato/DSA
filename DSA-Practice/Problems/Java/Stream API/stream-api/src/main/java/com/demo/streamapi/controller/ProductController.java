@@ -6,6 +6,7 @@ import com.demo.streamapi.repository.ProductRepository;
 import com.demo.streamapi.service.OrderManagement;
 import com.demo.streamapi.service.OrderManagementStream;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -36,9 +37,25 @@ public class ProductController {
         return orderManagement.getProjductByCategoryWithDiscount(category,10);
     }
 
-    @GetMapping("orderdByCustomerTier/{tier}")
+    @GetMapping("productOrderByCustomerTier/{customerTier}")
     public List<Product> getAllProductOrderedByCustomerTierBetweenDays(
-            @PathVariable Integer customerTier, @RequestParam LocalDate startDay, @RequestParam LocalDate endDay){
-        return orderManagement.getProductsByCustomerOfTierBetweenDays(customerTier,startDay,endDay);
+            @PathVariable Integer customerTier,
+            @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate startDay,
+            @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") LocalDate endDay){
+        return orderManagement.getProductsByCustomerOfTierBetweenDays(customerTier, startDay, endDay);
     }
+
+    @GetMapping("/cheapest")
+    public Product getCheapestProductByCategory(@RequestParam String category){
+        return orderManagement.getCheapestProductByCategory(category).get();
+    }
+
+    @GetMapping("/day")
+    public List<Product> getProductForDay(@RequestParam LocalDate day){
+        return orderManagement.getProductForDay(day);
+    }
+
+
+
+
 }

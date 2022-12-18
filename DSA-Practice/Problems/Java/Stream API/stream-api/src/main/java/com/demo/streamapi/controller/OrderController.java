@@ -1,6 +1,7 @@
 package com.demo.streamapi.controller;
 
 import com.demo.streamapi.entity.Order;
+import com.demo.streamapi.entity.Product;
 import com.demo.streamapi.repository.OrderRepository;
 import com.demo.streamapi.service.OrderManagement;
 import com.demo.streamapi.service.OrderManagementStream;
@@ -10,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/order")
@@ -31,5 +34,22 @@ public class OrderController {
     public List<Order> getOrdersByProductCategory(@RequestParam String productCategory){
         return orderManagement.getOrdersByProductBelogToCategory(productCategory);
     }
+
+    @GetMapping("/recent")
+    public List<Order> getRecentOrders(@RequestParam int limit){
+        return orderManagement.getRecentOrders(limit);
+    }
+
+    @GetMapping("/salesByMonth")
+    public Double getOrderSalesAmountByMonth(@RequestParam LocalDate salesMonth){
+        return orderManagement.getOrderSalesAmountByMonth(salesMonth);
+    }
+
+    @GetMapping("avgOrderPaymentByDay")
+    public Double getAvgOrderPaymentByDay(@RequestParam LocalDate salesDay){
+        return orderManagement.getAvgOrderPaymentByDay(salesDay);
+    }
+
+
 
 }
