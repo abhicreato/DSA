@@ -55,4 +55,10 @@ public interface OrderManagement {
     *Exercise 9 — Calculate order average payment placed on 14-Mar-2021
     * */
     OptionalDouble getAvgOrderPaymentByDay(LocalDate salesDay);
+
+    /*
+    * Exercise 10 — Obtain a collection of statistic figures
+    * (i.e. sum, average, max, min, count) for all products of category “Books”
+    * */
+    String getProductStatisticsByCategory(String category);
 }

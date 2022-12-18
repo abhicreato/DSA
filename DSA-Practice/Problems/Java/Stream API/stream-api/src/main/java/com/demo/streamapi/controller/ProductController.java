@@ -55,7 +55,8 @@ public class ProductController {
         return orderManagement.getProductForDay(day);
     }
 
-
-
-
+    @GetMapping("/statistics")
+        public String getProductStatisticsByCategory(@RequestParam String category) {
+        return orderManagement.getProductStatisticsByCategory(category);
+    }
 }

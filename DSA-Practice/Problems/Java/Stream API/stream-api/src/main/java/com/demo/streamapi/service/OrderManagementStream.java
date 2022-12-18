@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
-import java.util.OptionalDouble;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
@@ -110,5 +107,16 @@ public class OrderManagementStream implements OrderManagement{
                 .filter(o->o.getOrderDate().equals(salesDay))
                 .flatMapToDouble(o->o.getProducts().stream().mapToDouble(p->p.getPrice()))
                 .average();
+    }
+
+    @Override
+    public String getProductStatisticsByCategory(String category) {
+        DoubleSummaryStatistics statistics =  productRepository.findAll().stream()
+                .filter(p -> p.getCategory().equalsIgnoreCase(category))
+                .mapToDouble(p -> p.getPrice())
+                .summaryStatistics();
+
+        return new String(String.format("count = %1$d, average = %2$f, max = %3$f, min = %4$f, sum = %5$f",
+                statistics.getCount(), statistics.getAverage(), statistics.getMax(), statistics.getMin(), statistics.getSum()));
     }
 }
