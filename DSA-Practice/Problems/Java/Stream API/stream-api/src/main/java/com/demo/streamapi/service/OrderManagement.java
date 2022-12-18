@@ -6,6 +6,7 @@ import com.demo.streamapi.entity.Product;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
 
 public interface OrderManagement {
 
@@ -53,5 +54,5 @@ public interface OrderManagement {
     /*
     *Exercise 9 — Calculate order average payment placed on 14-Mar-2021
     * */
-    Double getAvgOrderPaymentByDay(LocalDate salesDay);
+    OptionalDouble getAvgOrderPaymentByDay(LocalDate salesDay);
 }

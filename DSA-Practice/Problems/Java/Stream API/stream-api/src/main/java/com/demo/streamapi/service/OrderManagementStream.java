@@ -11,6 +11,7 @@ import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
 @Service
@@ -102,12 +103,12 @@ public class OrderManagementStream implements OrderManagement{
     }
 
     @Override
-    public Double getAvgOrderPaymentByDay(LocalDate salesDay) {
+    public OptionalDouble getAvgOrderPaymentByDay(LocalDate salesDay) {
         return orderRepository
                 .findAll()
                 .stream()
                 .filter(o->o.getOrderDate().equals(salesDay))
                 .flatMapToDouble(o->o.getProducts().stream().mapToDouble(p->p.getPrice()))
-                .average().getAsDouble();
+                .average();
     }
 }

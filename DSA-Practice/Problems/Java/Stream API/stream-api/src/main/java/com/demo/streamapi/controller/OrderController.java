@@ -45,9 +45,9 @@ public class OrderController {
         return orderManagement.getOrderSalesAmountByMonth(salesMonth);
     }
 
-    @GetMapping("avgOrderPaymentByDay")
+    @GetMapping("/avgOrderPaymentByDay")
     public Double getAvgOrderPaymentByDay(@RequestParam LocalDate salesDay){
-        return orderManagement.getAvgOrderPaymentByDay(salesDay);
+        return orderManagement.getAvgOrderPaymentByDay(salesDay).orElse(0);
     }
 
 
