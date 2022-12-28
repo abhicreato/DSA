@@ -73,11 +73,12 @@ public class OrderManagementStream implements OrderManagement{
 
     @Override
     public List<Order> getRecentOrders(int limit) {
-        return orderRepository.findAll()
-                .stream()
-                .sorted(Comparator.comparing(Order::getOrderDate).reversed())
-                .limit(limit)
-                .collect(Collectors.toList());
+//        return orderRepository.findAll()
+//                .stream()
+//                .sorted(Comparator.comparing(Order::getOrderDate).reversed())
+//                .limit(limit)
+//                .collect(Collectors.toList());
+        return orderRepository.getRecentOrderWithLimit(limit);
     }
 
     @Override

@@ -1,10 +1,12 @@
 package com.demo.streamapi.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 @Entity
 @NoArgsConstructor
 @Table(name = "Customer")
