@@ -16,7 +16,7 @@ import java.util.Set;
 @Table(name = "product_order")
 public class Order {
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "order_id", nullable = false)
     private Long id;
 
     private LocalDate orderDate;

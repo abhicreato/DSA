@@ -6,14 +6,17 @@ import com.demo.streamapi.entity.Product;
 import com.demo.streamapi.repository.OrderRepository;
 import com.demo.streamapi.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+@Primary
 @Service
-public class OrderManagementStream implements OrderManagement{
+public class OrderManagementSql implements OrderManagement{
 
     @Autowired
     ProductRepository productRepository;
@@ -24,22 +27,14 @@ public class OrderManagementStream implements OrderManagement{
     @Override
     public List<Product> getProductByCategoryAndPriceGreaterThan(String category, Double priceGreaterThen) {
 
-        return productRepository
-                .findAll()
-                .stream()
-                .filter(p-> p.getCategory().equals(category))
-                .filter(p-> p.getPrice() > priceGreaterThen)
-                .collect(Collectors.toList());
+        return productRepository.getProductByCategoryAndPriceGreaterThan(category,priceGreaterThen);
 
     }
 
     @Override
     public List<Order> getOrdersByProductBelogToCategory(String category) {
-        return orderRepository
-                .findAll()
-                .stream()
-                .filter(o -> o.getProducts().stream().anyMatch(p -> p.getCategory().equalsIgnoreCase(category)))
-                .collect(Collectors.toList());
+        System.out.println(category);
+        return orderRepository.getOrderByProductCategory(category);
     }
 
     @Override
@@ -73,11 +68,7 @@ public class OrderManagementStream implements OrderManagement{
 
     @Override
     public List<Order> getRecentOrders(int limit) {
-        return orderRepository.findAll()
-                .stream()
-                .sorted(Comparator.comparing(Order::getOrderDate).reversed())
-                .limit(limit)
-                .collect(Collectors.toList());
+        return orderRepository.getRecentOrderWithLimit(limit);
     }
 
     @Override
