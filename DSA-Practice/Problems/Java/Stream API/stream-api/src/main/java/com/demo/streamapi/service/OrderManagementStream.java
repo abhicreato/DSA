@@ -34,7 +34,7 @@ public class OrderManagementStream implements OrderManagement{
     }
 
     @Override
-    public List<Order> getOrdersByProductBelogToCategory(String category) {
+    public List<Order> getOrdersByProductBelongToCategory(String category) {
         return orderRepository
                 .findAll()
                 .stream()

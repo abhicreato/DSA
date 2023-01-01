@@ -15,5 +15,7 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
     @Query(value = OrderSQL.GET_ORDER_BY_PRODUCT_CATEGORY,nativeQuery = true)
     public List<Order> getOrderByProductCategory(@Param("category") String category);
 
+    public List<Order> getOrderByProductsCategory(String category);
+
 
 }

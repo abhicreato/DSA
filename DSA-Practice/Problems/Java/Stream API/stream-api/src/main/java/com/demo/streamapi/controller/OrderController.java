@@ -34,7 +34,7 @@ public class OrderController {
 
     @GetMapping("/byCategory")
     public List<Order> getOrdersByProductCategory(@RequestParam String productCategory){
-        return orderManagement.getOrdersByProductBelogToCategory(productCategory);
+        return orderManagement.getOrdersByProductBelongToCategory(productCategory);
     }
 
     @GetMapping("/recent")

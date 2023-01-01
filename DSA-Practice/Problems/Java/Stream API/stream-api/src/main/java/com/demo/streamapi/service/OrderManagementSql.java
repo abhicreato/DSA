@@ -32,9 +32,11 @@ public class OrderManagementSql implements OrderManagement{
     }
 
     @Override
-    public List<Order> getOrdersByProductBelogToCategory(String category) {
+    public List<Order> getOrdersByProductBelongToCategory(String category) {
         System.out.println(category);
-        return orderRepository.getOrderByProductCategory(category);
+        //return orderRepository.getOrderByProductCategory(category);
+        return orderRepository.getOrderByProductsCategory(category);
+
     }
 
     @Override
