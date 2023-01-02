@@ -42,9 +42,14 @@ public class OrderManagementSql implements OrderManagement{
     @Override
     public List<Product> getProjductByCategoryWithDiscount(String category, int discountPercentage) {
 
-        return productRepository.findAll()
+//        return productRepository.findAll()
+//                .stream()
+//                .filter(p->p.getCategory().equalsIgnoreCase(category))
+//                .map(p-> p.withPrice(p.getPrice() * (0.9)))
+//                .collect(Collectors.toList());
+
+        return productRepository.findProductByCategory(category)
                 .stream()
-                .filter(p->p.getCategory().equalsIgnoreCase(category))
                 .map(p-> p.withPrice(p.getPrice() * (0.9)))
                 .collect(Collectors.toList());
     }

@@ -11,4 +11,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 
     @Query(value = ProductSQL.GET_PRODUCT_BY_CATEGORY_PRICE_GREATER,nativeQuery = true)
     public List<Product> getProductByCategoryAndPriceGreaterThan(@Param("category") String category, @Param("price") Double priceGreaterThen);
+
+    public List<Product> findProductByCategory(String category);
+
 }
