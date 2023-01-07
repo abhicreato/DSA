@@ -170,6 +170,5 @@ public class OrderManagementStream implements OrderManagement{
                         Collectors.maxBy(Comparator.comparing(Product::getPrice))
                 ));
     }
-
-
+    
 }
