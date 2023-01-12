@@ -25,7 +25,7 @@ public class CelibrityProblem {
             
             int potentialCelib = s.peek();
             
-            for(int i=0;i<n;i++){
+            for(int i=0; i<n; i++){
                 
                 if(M[potentialCelib][i] == 1){
                     return -1;
