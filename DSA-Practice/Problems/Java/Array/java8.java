@@ -10,6 +10,10 @@ public class java8 {
         list.add(2);
         list.add(2);
         list.add(4);
+
+        long corecount = Runtime.getRuntime().totalMemory() / 1024 /1024 /1014;
+
+        System.out.println(corecount);
         
         //list.stream().filter(i -> i > 1 ).forEach(System.out :: print);
 
@@ -21,7 +25,7 @@ public class java8 {
 
         //System.out.println(list.stream().min((i,j) -> i.compareTo(j)).get());
 
-        list.stream().distinct().collect(Collectors.toList()).forEach(System.out :: println);
+        //list.stream().distinct().collect(Collectors.toList()).forEach(System.out :: println);
 
     }
     
