@@ -9,35 +9,35 @@ public class ThreeSum {
         Arrays.sort(nums);
         List<List<Integer>> ans = new ArrayList();
         int l = nums.length;
-        int j,k;
+        int strat,end;
         
         for(int i = 0 ;i<l; i++){
             
             if (i > 0 && nums[i] == nums[i-1]) continue;
             
-            j = i + 1; k = l - 1;
+            strat = i + 1; end = l - 1;
             
-            while(j<k){
+            while(strat<end){
                 
-                int sum = nums[i] + nums[j] + nums[k];
+                int sum = nums[i] + nums[strat] + nums[end];
                 
                 if( sum == 0){
                     List<Integer> in = new ArrayList();
                     in.add(nums[i]);
-                    in.add(nums[j]);
-                    in.add(nums[k]);
+                    in.add(nums[strat]);
+                    in.add(nums[end]);
                     ans.add(in);
                     
                     // Avoid duplicate of nums[start]
-                    while (j < k && nums[j] == in.get(1)) j++;
+                    while (strat < end && nums[strat] == in.get(1)) strat++;
                     
                     // Avoid duplicate of nums[end]
-                    while (j < k && nums[k] == in.get(2)) k--;
+                    while (strat < end && nums[end] == in.get(2)) end--;
                     
                 }else if(sum > 0){
-                    k--; 
+                    end--; 
                 }else if(sum < 0){
-                    j++;
+                    strat++;
                 }
                 
             }
@@ -46,7 +46,13 @@ public class ThreeSum {
         
         return ans;
         
-    }
-
-    
+    } 
 }
+
+
+/*
+**************** Logic ****************
+The idea is to sort an input array and then run through all indices of a possible first element of a triplet.
+For each possible first element we make a 2 pointer search of the remaining part of the array.
+Also we want to skip equal elements to avoid duplicates in the answer.
+*/
