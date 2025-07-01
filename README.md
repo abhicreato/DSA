@@ -1,6 +1,6 @@
 # DSA
 
-#Javahttps://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaxSumSubArrayOfSizeK.java
+#Java
 
 ### 0. Array
 | No. | Problem | Practice Link |
