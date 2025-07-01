@@ -15,29 +15,24 @@ Return the maximum sum of a subarray of size K.
 
 import java.util.*;
 
-class MaxSumSubArrayOfSizeK {
+class Solution {
+    public int maximumSumSubarray(int[] arr, int k) {
 
-    static long maximumSumSubarray(int K, ArrayList<Integer> Arr, int N) {
-        // code here
-        int i = 0;
-        int j = 0;
-        long sum = 0;
-        long max = Integer.MIN_VALUE;
-
-        while (j < N) {
-
-            sum = sum + Arr.get(j);
-
-            if (j - i + 1 == K) {
-                max = Math.max(max, sum);
-                sum = sum - Arr.get(i);
-                i++;
-            }
-
-            j++;
-
+    int maxSum = Integer.MIN_VALUE;
+    int sum = 0;
+    
+    int i=0;
+    int j=0;
+    
+    while(j<arr.length){
+        sum = sum + arr[j];
+        if(j-i+1==k){
+            maxSum = Math.max(maxSum,sum);
+            sum = sum - arr[i];
+            i++;
         }
-
-        return max;
+        j++;
+    }
+    return maxSum;
     }
 }
