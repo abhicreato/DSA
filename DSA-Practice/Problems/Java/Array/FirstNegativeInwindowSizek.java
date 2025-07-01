@@ -11,30 +11,25 @@ Given an array of integers nums and an integer k, return the total number of con
     Output: 2
 */
 
-public class FirstNegativeInwindowSizek {
-
-    public long[] printFirstNegativeInteger(long A[], int N, int K)
-    {
-        
+class Solution {
+    static List<Integer> firstNegInt(int arr[], int k) {
+        // write code here
         int i = 0;
         int j = 0;
-        Queue<Long> q = new LinkedList<>();
-        long[] ans = new long[N - K + 1];
-        int index = 0;
+        Queue<Integer> q = new LinkedList<>();
+        List<Integer> op = new ArrayList<>();
         
-        while(j < N){
+        while(j < arr.length){
             
-            if(A[j] < 0){
-                q.add(A[j]);
-            }
+            if(arr[j] < 0) q.add(arr[j]);
             
-            if(j - i + 1 == K){
+            if(j - i + 1 == k){
                 
                 if(!q.isEmpty()){
-                    ans[index++] = q.peek();
-                    if(A[i]==q.peek()) q.poll();
-                } else{
-                    ans[index++] = 0;
+                    op.add(q.peek());
+                    if(q.peek() == arr[i]) q.poll();
+                }else{
+                    op.add(0);
                 }
                 
                 i++;
@@ -43,12 +38,8 @@ public class FirstNegativeInwindowSizek {
             j++;
         }
         
-        return ans;
-        
-     
+        return op;
     }
-
-    
 }
 
 /*
