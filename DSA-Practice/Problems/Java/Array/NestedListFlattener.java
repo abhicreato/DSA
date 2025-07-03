@@ -4,6 +4,8 @@ import java.util.List;
 public class NestedListFlattener {
 
     public static List<Integer> flatList(List<Object> nestedList, List<Integer> op) {
+
+        if(nestedList == null || nestedList.isEmpty()) return op;
         for (Object element : nestedList) {
             if (element instanceof Integer) {
                 op.add((Integer) element);
