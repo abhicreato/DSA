@@ -4,13 +4,14 @@ public class TrappingRainWater {
         int ans = 0;
         int length = height.length;
 
-        
+        // maxheight at left from i
         int[] maxInLeft = new int[length];
         maxInLeft[0] = height[0];
         for (int i = 1; i < length; i++) {
             maxInLeft[i] = Math.max(maxInLeft[i - 1],height[i]);
         }
 
+        // maxheight at right from i
         int[] maxInRight = new int[length];
         maxInRight[length - 1] = height[length - 1];
         for (int i = length - 2; i >= 0; i--) {
@@ -29,3 +30,4 @@ public class TrappingRainWater {
     }
     
 }
+
