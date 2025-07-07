@@ -11,7 +11,7 @@
 |4  | [Subarray Sum Equals K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/SubarraySumEqualsK.java) | [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/) |
 |5  | [Trapping Rain Water](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/TrappingRainWater.java) | [Leetcode](https://leetcode.com/problems/trapping-rain-water/) |
 |6  | [Gas Station](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/GasStation2.java) | [Leetcode](https://leetcode.com/problems/gas-station/) |
-|7  | [Merge Intervals](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MergeIntervals.cpp) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
+|7  | [Merge Intervals](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MergeInterval.java) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
 |8  | [Find First and Last Position of Element in Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstAndLastPosInSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
 |9  | [Check if Array Is Sorted and Rotated](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CheckSortedRotatedArray.cpp) | [Leetcode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 |10  | [Find Minimum in Rotated Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinInRotatedSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
