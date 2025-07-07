@@ -34,4 +34,27 @@ public class MergeInterval {
         
     }
     
+    public int[][] merge2(int[][] intervals) {
+
+        if (intervals == null || intervals.length == 0)
+            return intervals;
+
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+
+        List<int[]> ans = new ArrayList();
+        int[] current = intervals[0];
+        ans.add(current);
+
+        for (int i = 0; i < intervals.length; i++) {
+            if (current[1] >= intervals[i][0]) {
+                current[1] = Math.max(intervals[i][1],current[1]);
+            } else {
+                current = intervals[i];
+                ans.add(current);
+            }
+        }
+
+        return ans.toArray(new int[ans.size()][2]);
+
+    }
 }
