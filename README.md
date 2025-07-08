@@ -5,8 +5,8 @@
 ### 0. Array
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
-|0  | [Max Sum Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaximumDistinctSubarraySum.java) | [LeetCode](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) |
-|1  | [Max Sum Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaxSumSubArrayOfSizeK.java) | [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#) |
+|0  | [Max Sum Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaxSumSubArrayOfSizeK.java) | [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#) |
+|1  | [Max Sum Distinct Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaximumDistinctSubarraySum.java) | [LeetCode](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) |
 |2  | [First negative integer in every window of size k](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstNegativeInWindow.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#) |
 |3  | [Maximum of all sub arrays of size k](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaximumOfAllSubarraysSizek.java) | [leetcode](https://leetcode.com/problems/sliding-window-maximum/) |
 |4  | [Subarray Sum Equals K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/SubarraySumEqualsK.java) | [Leetcode](https://leetcode.com/problems/subarray-sum-equals-k/) |
