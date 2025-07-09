@@ -56,4 +56,30 @@ public class FindFirstAndLastTargetElement {
         
     }
     
+    public int[] searchRange2(int[] nums, int target) {
+    int i = 0;
+    int j = nums.length - 1;
+    int[] op = { -1, -1 };
+
+    while (i <= j) {
+        int n = (i + j) / 2;
+
+        if (nums[n] == target) {
+            int left = n, right = n;
+            // Expand left
+            while (left > 0 && nums[left - 1] == target) left--;
+            // Expand right
+            while (right < nums.length - 1 && nums[right + 1] == target) right++;
+            op[0] = left;
+            op[1] = right;
+            return op;
+        } else if (nums[n] < target) {
+            i = n + 1;
+        } else {
+            j = n - 1;
+        }
+    }
+
+    return op;
+}
 }
