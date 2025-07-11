@@ -17,6 +17,31 @@ public class FindMinimumRotatedSortedArray {
         
         return nums[start];
     }
+
+     public int findMin2(int[] nums) {
+
+        int start = 0;
+        int end = nums.length - 1;
+        int op = nums[0];
+
+        while(start<=end){
+
+            if(nums[start] < nums[end]) return Math.min(op, nums[start]);
+
+            int mid = (start + end ) / 2;
+
+            op = Math.min(op, nums[mid]);
+
+            if(nums[start] <= nums[mid]){
+                start = mid + 1;
+            }else{
+                end = mid - 1;
+            }
+
+        }
+
+        return op;
+    }
     
 }
 
