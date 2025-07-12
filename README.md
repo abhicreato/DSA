@@ -15,7 +15,7 @@
 |7  | [Merge Intervals](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MergeInterval.java) | [Leetcode](https://leetcode.com/problems/merge-intervals/) |
 |8  | [Find First and Last Position of Element in Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstAndLastPosInSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
 |9  | [Check if Array Is Sorted and Rotated](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/RotatedSorted.java) | [Leetcode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
-|10  | [Find Minimum in Rotated Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinInRotatedSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
+|10  | [Find Minimum in Rotated Sorted Array](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/FindMinimumRotatedSortedArray.java) | [Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
 |11  | [Search in Rotated Sorted Array](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SearchInRotatedSortedArray.cpp) | [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
 |12  | [Search Insert Position](https://github.com/pr7prashant/dsa-practice/blob/master/Array/SearchInsertPosition.cpp) | [Leetcode](https://leetcode.com/problems/search-insert-position/) |
 |13  | [Next Alphabetical Element](https://github.com/pr7prashant/dsa-practice/blob/master/Array/NextAlphabeticalElement.cpp) | [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |
