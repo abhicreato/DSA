@@ -8,6 +8,7 @@
 |0  | [Has Duplicates](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/HasDuplicates.java) | [Leetcode](https://leetcode.com/problems/contains-duplicate/description/) |
 |0  | [Valid Anagram](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/ValidAnagram.java) | [Leetcode](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/ValidAnagram.java) |
 |0  | [Group-anagrams](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/GroupAnagram.java) | [Leetcode](https://leetcode.com/problems/group-anagrams/) |
+|0  | [Top K frequent element](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/TopKFrequentElement.java) | [Leet Code](https://leetcode.com/problems/top-k-frequent-elements/) |
 |0  | [Max Sum Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaxSumSubArrayOfSizeK.java) | [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#) |
 |1  | [Max Sum Distinct Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaximumDistinctSubarraySum.java) | [LeetCode](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) |
 |2  | [First negative integer in every window of size k](https://github.com/pr7prashant/dsa-practice/blob/master/Array/FirstNegativeInWindow.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#) |
