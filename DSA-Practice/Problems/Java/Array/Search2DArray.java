@@ -8,7 +8,10 @@ public class Search2DArray {
 
             while (start <= end) {
                 int mid = (start + end) / 2;
-                int midVal = matrix[mid / col][mid % col];
+                //Logical flaten 2d->1d
+                int rowId = mid / col;
+                int colId = mid % col;
+                int midVal = matrix[rowId][colId];
 
                 if (midVal == target) {
                     return true;
