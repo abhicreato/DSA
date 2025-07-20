@@ -25,7 +25,7 @@
 |13  | [Next Alphabetical Element](github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/NextGreatestLetter.java) | [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |
 |14  | [Find Peak Element](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/PeakElement.java) | [Leetcode](https://leetcode.com/problems/find-peak-element/) |
 |15  | [Search in a 2D Sorted Matrix](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/Search2DArray.java) | [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/) |
-|16  | [Allocate minimum number of pages](https://github.com/pr7prashant/dsa-practice/blob/master/Array/AllocateMinPages.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1#) |
+|16  | [Allocate minimum number of pages](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/AllocateBooksStudentsK.java) | [GFG](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1#) |
 |17  | [The Celebrity Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CelebrityProblem.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
 |18  | [Minimize maximum difference between the heights](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinimizeHeights.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#) |
 |19  | [Find the Duplicate Number](https://github.com/pr7prashant/dsa-practice/blob/master/Array/DuplicateNumber.cpp) | [Leetcode](https://leetcode.com/problems/find-the-duplicate-number/) |
