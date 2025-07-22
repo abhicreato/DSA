@@ -28,9 +28,9 @@
 |16  | [Allocate minimum number of pages](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/AllocateBooksStudentsK.java) | [GFG](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1#) |
 |17  | [The Celebrity Problem](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CelebrityProblem.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1) |
 |18  | [Find the Duplicate Number](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/FindDuplicateNumber.java) | [Leetcode](https://leetcode.com/problems/find-the-duplicate-number/) |
-|19  | [Minimize maximum difference between the heights](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinimizeHeights.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#) |
-|20  | [Merge 2 sorted arrays without extra space](https://github.com/pr7prashant/dsa-practice/blob/master/Array/Merge2SortedArrays.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1#) |
-|21  | [Maximum Subarray (Kadane's Algorithm)](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MaxSubArray.cpp) | [Leetcode](https://leetcode.com/problems/maximum-subarray/) |
+|19  | [Maximum Subarray (Kadane's Algorithm)](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MaxSubArray.cpp) | [Leetcode](https://leetcode.com/problems/maximum-subarray/) |
+|20  | [Minimize maximum difference between the heights](https://github.com/pr7prashant/dsa-practice/blob/master/Array/MinimizeHeights.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1#) |
+|21  | [Merge 2 sorted arrays without extra space](https://github.com/pr7prashant/dsa-practice/blob/master/Array/Merge2SortedArrays.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1#) |
 |22  | [Next Permutation](https://github.com/pr7prashant/dsa-practice/blob/master/Array/NextPermutation.cpp) | [Leetcode](https://leetcode.com/problems/next-permutation/) |
 |23  | [Count Inversions](https://github.com/pr7prashant/dsa-practice/blob/master/Array/CountInversions.cpp) | [GFG](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1#) |
 |24  | [Best Time to Buy and Sell Stock](https://github.com/pr7prashant/dsa-practice/blob/master/Array/BuyAndSellStock.cpp) | [Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
