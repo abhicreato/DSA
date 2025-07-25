@@ -21,13 +21,10 @@ public class TopKFrequentElement {
             for (Map.Entry e : freqMap.entrySet()) {
                 int key = (int) e.getKey();
                 int value = (int) e.getValue();
-                if (bucket[value] != null) {
-                    bucket[value].add(key);
-                } else {
-                    ArrayList<Integer> t = new ArrayList();
-                    t.add(key);
-                    bucket[value] = t;
+                if (bucket[value] == null) {
+                     bucket[value] = new ArrayList();
                 }
+                     bucket[value].add(key);
 
             }
 
