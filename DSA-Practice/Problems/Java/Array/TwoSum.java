@@ -5,23 +5,16 @@ public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
 
-        int[] op = new int[2];
-        Map<Integer, Integer> map = new HashMap();
+        Map<Integer, Integer> m = new HashMap();
 
         for (int i = 0; i < nums.length; i++) {
-
-            int current = nums[i];
-
-            if (map.containsKey(nums[i])) {
-                return new int[] { map.get(current), i };
+            if (m.containsKey(nums[i])) {
+                return new int[] { m.get(nums[i]), i };
             }
-
-            map.put(target - current, i);
-
+            m.put(target - nums[i], i);
         }
 
-        return op;
-
+        return new int[2];
     }
 
     public int[] twoSum2(int[] nums, int target) {
