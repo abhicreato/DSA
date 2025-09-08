@@ -7,7 +7,7 @@
 | No. | Problem | Practice Link |
 | --- | --------- | --------- |
 |0  | [Has Duplicates](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/HasDuplicates.java) | [Leetcode](https://leetcode.com/problems/contains-duplicate/description/) |
-|0  | [Valid Anagram](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/ValidAnagram.java) | [Leetcode](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/ValidAnagram.java) |
+|0  | [Valid Anagram](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/ValidAnagram.java) | [Leetcode](https://leetcode.com/problems/valid-anagram/description/) |
 |0  | [Group-anagrams](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/GroupAnagram.java) | [Leetcode](https://leetcode.com/problems/group-anagrams/) |
 |0  | [Top K frequent element](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/TopKFrequentElement.java) | [Leet Code](https://leetcode.com/problems/top-k-frequent-elements/) |
 |0  | [Max Sum Subarray of size K](https://github.com/abhicreato/DSA/blob/main/DSA-Practice/Problems/Java/Array/MaxSumSubArrayOfSizeK.java) | [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#) |
